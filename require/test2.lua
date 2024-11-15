@@ -3,79 +3,79 @@
 
 -- Instances:
 
-local Hub = Instance.new("ScreenGui")
-local Blurs = Instance.new("Folder")
-local Cmd = Instance.new("TextLabel")
-local UICorner = Instance.new("UICorner")
-local Icon = Instance.new("ImageLabel")
-local Box = Instance.new("TextBox")
-local Key = Instance.new("Frame")
-local UICorner_2 = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
-local Executor = Instance.new("Frame")
-local Top = Instance.new("Frame")
-local UICorner_3 = Instance.new("UICorner")
-local Bottom = Instance.new("Frame")
-local Text = Instance.new("TextLabel")
-local Close = Instance.new("ImageButton")
-local Icon_2 = Instance.new("ImageLabel")
-local Bottom_2 = Instance.new("Frame")
-local Top_2 = Instance.new("Frame")
-local UICorner_4 = Instance.new("UICorner")
-local Execute = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
-local Icon_3 = Instance.new("ImageLabel")
-local Text_2 = Instance.new("TextLabel")
-local Erase = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
-local Icon_4 = Instance.new("ImageLabel")
-local Text_3 = Instance.new("TextLabel")
-local Left = Instance.new("Frame")
-local Side = Instance.new("Frame")
-local _s = Instance.new("Frame")
-local UIListLayout = Instance.new("UIListLayout")
-local Number = Instance.new("TextLabel")
-local Number_2 = Instance.new("TextLabel")
-local Number_3 = Instance.new("TextLabel")
-local Number_4 = Instance.new("TextLabel")
-local Number_5 = Instance.new("TextLabel")
-local Number_6 = Instance.new("TextLabel")
-local Number_7 = Instance.new("TextLabel")
-local Number_8 = Instance.new("TextLabel")
-local Number_9 = Instance.new("TextLabel")
-local Number_10 = Instance.new("TextLabel")
-local Number_11 = Instance.new("TextLabel")
-local Number_12 = Instance.new("TextLabel")
-local Number_13 = Instance.new("TextLabel")
-local Number_14 = Instance.new("TextLabel")
-local Number_15 = Instance.new("TextLabel")
-local Number_16 = Instance.new("TextLabel")
-local Number_17 = Instance.new("TextLabel")
-local Number_18 = Instance.new("TextLabel")
-local Number_19 = Instance.new("TextLabel")
-local Number_20 = Instance.new("TextLabel")
-local Number_21 = Instance.new("TextLabel")
-local Number_22 = Instance.new("TextLabel")
-local Number_23 = Instance.new("TextLabel")
-local Number_24 = Instance.new("TextLabel")
-local Number_25 = Instance.new("TextLabel")
-local Number_26 = Instance.new("TextLabel")
-local Number_27 = Instance.new("TextLabel")
-local Blurred = Instance.new("Frame")
-local Code = Instance.new("TextBox")
+local Hub = Instance.new('ScreenGui')
+local Blurs = Instance.new('Folder')
+local Cmd = Instance.new('TextLabel')
+local UICorner = Instance.new('UICorner')
+local Icon = Instance.new('ImageLabel')
+local Box = Instance.new('TextBox')
+local Key = Instance.new('Frame')
+local UICorner_2 = Instance.new('UICorner')
+local TextLabel = Instance.new('TextLabel')
+local Executor = Instance.new('Frame')
+local Top = Instance.new('Frame')
+local UICorner_3 = Instance.new('UICorner')
+local Bottom = Instance.new('Frame')
+local Text = Instance.new('TextLabel')
+local Close = Instance.new('ImageButton')
+local Icon_2 = Instance.new('ImageLabel')
+local Bottom_2 = Instance.new('Frame')
+local Top_2 = Instance.new('Frame')
+local UICorner_4 = Instance.new('UICorner')
+local Execute = Instance.new('TextButton')
+local UICorner_5 = Instance.new('UICorner')
+local Icon_3 = Instance.new('ImageLabel')
+local Text_2 = Instance.new('TextLabel')
+local Erase = Instance.new('TextButton')
+local UICorner_6 = Instance.new('UICorner')
+local Icon_4 = Instance.new('ImageLabel')
+local Text_3 = Instance.new('TextLabel')
+local Left = Instance.new('Frame')
+local Side = Instance.new('Frame')
+local _s = Instance.new('Frame')
+local UIListLayout = Instance.new('UIListLayout')
+local Number = Instance.new('TextLabel')
+local Number_2 = Instance.new('TextLabel')
+local Number_3 = Instance.new('TextLabel')
+local Number_4 = Instance.new('TextLabel')
+local Number_5 = Instance.new('TextLabel')
+local Number_6 = Instance.new('TextLabel')
+local Number_7 = Instance.new('TextLabel')
+local Number_8 = Instance.new('TextLabel')
+local Number_9 = Instance.new('TextLabel')
+local Number_10 = Instance.new('TextLabel')
+local Number_11 = Instance.new('TextLabel')
+local Number_12 = Instance.new('TextLabel')
+local Number_13 = Instance.new('TextLabel')
+local Number_14 = Instance.new('TextLabel')
+local Number_15 = Instance.new('TextLabel')
+local Number_16 = Instance.new('TextLabel')
+local Number_17 = Instance.new('TextLabel')
+local Number_18 = Instance.new('TextLabel')
+local Number_19 = Instance.new('TextLabel')
+local Number_20 = Instance.new('TextLabel')
+local Number_21 = Instance.new('TextLabel')
+local Number_22 = Instance.new('TextLabel')
+local Number_23 = Instance.new('TextLabel')
+local Number_24 = Instance.new('TextLabel')
+local Number_25 = Instance.new('TextLabel')
+local Number_26 = Instance.new('TextLabel')
+local Number_27 = Instance.new('TextLabel')
+local Blurred = Instance.new('Frame')
+local Code = Instance.new('TextBox')
 Executor.Active = true
 Executor.Draggable = true
 
 --Properties:
 
-Hub.Name = "Hub"
-Hub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Hub.Name = 'Hub'
+Hub.Parent = game.Players.LocalPlayer:WaitForChild('PlayerGui')
 Hub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Blurs.Name = "Blurs"
+Blurs.Name = 'Blurs'
 Blurs.Parent = Hub
 
-Cmd.Name = "Cmd"
+Cmd.Name = 'Cmd'
 Cmd.Parent = Hub
 Cmd.Active = true
 Cmd.BackgroundColor3 = Color3.fromRGB(53, 54, 59)
@@ -86,23 +86,23 @@ Cmd.Selectable = true
 Cmd.Size = UDim2.new(0, 354, 0, 42)
 Cmd.Visible = false
 Cmd.Font = Enum.Font.SourceSans
-Cmd.Text = ""
+Cmd.Text = ''
 Cmd.TextColor3 = Color3.fromRGB(0, 0, 0)
 Cmd.TextSize = 14.000
 
 UICorner.CornerRadius = UDim.new(0, 5)
 UICorner.Parent = Cmd
 
-Icon.Name = "Icon"
+Icon.Name = 'Icon'
 Icon.Parent = Cmd
 Icon.BackgroundTransparency = 1.000
 Icon.BorderSizePixel = 0
 Icon.Position = UDim2.new(0.036723163, 0, 0.261904776, 0)
 Icon.Size = UDim2.new(0, 19, 0, 19)
-Icon.Image = "http://www.roblox.com/asset/?id=6031154871"
+Icon.Image = 'http://www.roblox.com/asset/?id=6031154871'
 Icon.ImageColor3 = Color3.fromRGB(134, 137, 141)
 
-Box.Name = "Box"
+Box.Name = 'Box'
 Box.Parent = Cmd
 Box.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Box.BackgroundTransparency = 1.000
@@ -113,13 +113,13 @@ Box.Size = UDim2.new(0, 309, 0, 25)
 Box.ClearTextOnFocus = false
 Box.Font = Enum.Font.Gotham
 Box.PlaceholderColor3 = Color3.fromRGB(134, 137, 141)
-Box.PlaceholderText = "command here"
-Box.Text = ""
+Box.PlaceholderText = 'command here'
+Box.Text = ''
 Box.TextColor3 = Color3.fromRGB(134, 137, 141)
 Box.TextSize = 14.000
 Box.TextXAlignment = Enum.TextXAlignment.Left
 
-Key.Name = "Key"
+Key.Name = 'Key'
 Key.Parent = Cmd
 Key.BackgroundColor3 = Color3.fromRGB(59, 60, 63)
 Key.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -139,11 +139,11 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.0799999982, 0, 0.157894731, 0)
 TextLabel.Size = UDim2.new(0, 42, 0, 13)
 TextLabel.Font = Enum.Font.Gotham
-TextLabel.Text = "Ent"
+TextLabel.Text = 'Ent'
 TextLabel.TextColor3 = Color3.fromRGB(134, 137, 141)
 TextLabel.TextSize = 10.000
 
-Executor.Name = "Executor"
+Executor.Name = 'Executor'
 Executor.Parent = Hub
 Executor.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Executor.BackgroundTransparency = 1.000
@@ -152,7 +152,7 @@ Executor.BorderSizePixel = 0
 Executor.Position = UDim2.new(0.373268694, 0, 0.239074528, 0)
 Executor.Size = UDim2.new(0, 366, 0, 406)
 
-Top.Name = "Top"
+Top.Name = 'Top'
 Top.Parent = Executor
 Top.BackgroundColor3 = Color3.fromRGB(65, 68, 74)
 Top.BackgroundTransparency = 0.200
@@ -163,7 +163,7 @@ Top.Size = UDim2.new(0, 366, 0, 30)
 UICorner_3.CornerRadius = UDim.new(0, 6)
 UICorner_3.Parent = Top
 
-Bottom.Name = "Bottom"
+Bottom.Name = 'Bottom'
 Bottom.Parent = Top
 Bottom.BackgroundColor3 = Color3.fromRGB(104, 108, 117)
 Bottom.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -171,7 +171,7 @@ Bottom.BorderSizePixel = 0
 Bottom.Position = UDim2.new(0, 0, 0.866666675, 0)
 Bottom.Size = UDim2.new(0, 366, 0, 4)
 
-Text.Name = "Text"
+Text.Name = 'Text'
 Text.Parent = Top
 Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Text.BackgroundTransparency = 1.000
@@ -180,12 +180,12 @@ Text.BorderSizePixel = 0
 Text.Position = UDim2.new(0.0163934417, 0, 0.200000003, 0)
 Text.Size = UDim2.new(0, 353, 0, 15)
 Text.Font = Enum.Font.GothamMedium
-Text.Text = "Require Executor"
+Text.Text = 'Require Executor'
 Text.TextColor3 = Color3.fromRGB(190, 198, 200)
 Text.TextSize = 10.000
 Text.TextXAlignment = Enum.TextXAlignment.Left
 
-Close.Name = "Close"
+Close.Name = 'Close'
 Close.Parent = Top
 Close.Active = false
 Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -196,16 +196,16 @@ Close.Position = UDim2.new(0.92349726, 0, 0.200000003, 0)
 Close.Selectable = false
 Close.Size = UDim2.new(0, 15, 0, 15)
 
-Icon_2.Name = "Icon"
+Icon_2.Name = 'Icon'
 Icon_2.Parent = Close
 Icon_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Icon_2.BackgroundTransparency = 1.000
 Icon_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Icon_2.BorderSizePixel = 0
 Icon_2.Size = UDim2.new(0, 15, 0, 15)
-Icon_2.Image = "http://www.roblox.com/asset/?id=6031094678"
+Icon_2.Image = 'http://www.roblox.com/asset/?id=6031094678'
 
-Bottom_2.Name = "Bottom"
+Bottom_2.Name = 'Bottom'
 Bottom_2.Parent = Executor
 Bottom_2.BackgroundColor3 = Color3.fromRGB(48, 49, 54)
 Bottom_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -213,7 +213,7 @@ Bottom_2.BorderSizePixel = 0
 Bottom_2.Position = UDim2.new(0, 0, 0.788177311, 0)
 Bottom_2.Size = UDim2.new(0, 366, 0, 85)
 
-Top_2.Name = "Top"
+Top_2.Name = 'Top'
 Top_2.Parent = Bottom_2
 Top_2.BackgroundColor3 = Color3.fromRGB(104, 108, 117)
 Top_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -224,7 +224,7 @@ Top_2.Size = UDim2.new(0, 366, 0, 4)
 UICorner_4.CornerRadius = UDim.new(0, 6)
 UICorner_4.Parent = Bottom_2
 
-Execute.Name = "Execute"
+Execute.Name = 'Execute'
 Execute.Parent = Bottom_2
 Execute.BackgroundColor3 = Color3.fromRGB(48, 49, 54)
 Execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -232,22 +232,22 @@ Execute.BorderSizePixel = 0
 Execute.Position = UDim2.new(0.0191256832, 0, 0.200000003, 0)
 Execute.Size = UDim2.new(0, 96, 0, 20)
 Execute.Font = Enum.Font.SourceSans
-Execute.Text = ""
+Execute.Text = ''
 Execute.TextColor3 = Color3.fromRGB(0, 0, 0)
 Execute.TextSize = 14.000
 
 UICorner_5.CornerRadius = UDim.new(0, 4)
 UICorner_5.Parent = Execute
 
-Icon_3.Name = "Icon"
+Icon_3.Name = 'Icon'
 Icon_3.Parent = Execute
 Icon_3.BackgroundTransparency = 1.000
 Icon_3.BorderSizePixel = 0
 Icon_3.Position = UDim2.new(0.0833333358, 0, 0.150000006, 0)
 Icon_3.Size = UDim2.new(0, 14, 0, 14)
-Icon_3.Image = "http://www.roblox.com/asset/?id=6026663699"
+Icon_3.Image = 'http://www.roblox.com/asset/?id=6026663699'
 
-Text_2.Name = "Text"
+Text_2.Name = 'Text'
 Text_2.Parent = Execute
 Text_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Text_2.BackgroundTransparency = 1.000
@@ -256,11 +256,11 @@ Text_2.BorderSizePixel = 0
 Text_2.Position = UDim2.new(0.229166672, 0, 0.0500000007, 0)
 Text_2.Size = UDim2.new(0, 68, 0, 17)
 Text_2.Font = Enum.Font.Gotham
-Text_2.Text = "Run Script"
+Text_2.Text = 'Run Script'
 Text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Text_2.TextSize = 10.000
 
-Erase.Name = "Erase"
+Erase.Name = 'Erase'
 Erase.Parent = Bottom_2
 Erase.BackgroundColor3 = Color3.fromRGB(48, 49, 54)
 Erase.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -268,22 +268,22 @@ Erase.BorderSizePixel = 0
 Erase.Position = UDim2.new(0.0191256832, 0, 0.552941203, 0)
 Erase.Size = UDim2.new(0, 96, 0, 20)
 Erase.Font = Enum.Font.SourceSans
-Erase.Text = ""
+Erase.Text = ''
 Erase.TextColor3 = Color3.fromRGB(0, 0, 0)
 Erase.TextSize = 14.000
 
 UICorner_6.CornerRadius = UDim.new(0, 4)
 UICorner_6.Parent = Erase
 
-Icon_4.Name = "Icon"
+Icon_4.Name = 'Icon'
 Icon_4.Parent = Erase
 Icon_4.BackgroundTransparency = 1.000
 Icon_4.BorderSizePixel = 0
 Icon_4.Position = UDim2.new(0.0833333358, 0, 0.150000006, 0)
 Icon_4.Size = UDim2.new(0, 14, 0, 14)
-Icon_4.Image = "rbxassetid://6433009966"
+Icon_4.Image = 'rbxassetid://6433009966'
 
-Text_3.Name = "Text"
+Text_3.Name = 'Text'
 Text_3.Parent = Erase
 Text_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Text_3.BackgroundTransparency = 1.000
@@ -292,11 +292,11 @@ Text_3.BorderSizePixel = 0
 Text_3.Position = UDim2.new(0.229166672, 0, 0.0500000007, 0)
 Text_3.Size = UDim2.new(0, 68, 0, 17)
 Text_3.Font = Enum.Font.Gotham
-Text_3.Text = "Erase Text"
+Text_3.Text = 'Erase Text'
 Text_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Text_3.TextSize = 10.000
 
-Left.Name = "Left"
+Left.Name = 'Left'
 Left.Parent = Executor
 Left.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Left.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -304,7 +304,7 @@ Left.BorderSizePixel = 0
 Left.Position = UDim2.new(0, 0, 0.0738916248, 0)
 Left.Size = UDim2.new(0, 71, 0, 290)
 
-Side.Name = "Side"
+Side.Name = 'Side'
 Side.Parent = Left
 Side.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
 Side.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -312,7 +312,7 @@ Side.BorderSizePixel = 0
 Side.Position = UDim2.new(1, 0, 0, 0)
 Side.Size = UDim2.new(0, 4, 0, 290)
 
-_s.Name = "#_s"
+_s.Name = '#_s'
 _s.Parent = Left
 _s.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 _s.BackgroundTransparency = 1.000
@@ -325,7 +325,7 @@ UIListLayout.Parent = _s
 UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Right
 UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 
-Number.Name = "Number"
+Number.Name = 'Number'
 Number.Parent = _s
 Number.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number.BackgroundTransparency = 1.000
@@ -334,11 +334,11 @@ Number.BorderSizePixel = 0
 Number.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number.Size = UDim2.new(0, 23, 0, 10)
 Number.Font = Enum.Font.Gotham
-Number.Text = "1"
+Number.Text = '1'
 Number.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number.TextSize = 10.000
 
-Number_2.Name = "Number"
+Number_2.Name = 'Number'
 Number_2.Parent = _s
 Number_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_2.BackgroundTransparency = 1.000
@@ -347,11 +347,11 @@ Number_2.BorderSizePixel = 0
 Number_2.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_2.Size = UDim2.new(0, 23, 0, 10)
 Number_2.Font = Enum.Font.Gotham
-Number_2.Text = "2"
+Number_2.Text = '2'
 Number_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_2.TextSize = 10.000
 
-Number_3.Name = "Number"
+Number_3.Name = 'Number'
 Number_3.Parent = _s
 Number_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_3.BackgroundTransparency = 1.000
@@ -360,11 +360,11 @@ Number_3.BorderSizePixel = 0
 Number_3.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_3.Size = UDim2.new(0, 23, 0, 10)
 Number_3.Font = Enum.Font.Gotham
-Number_3.Text = "3"
+Number_3.Text = '3'
 Number_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_3.TextSize = 10.000
 
-Number_4.Name = "Number"
+Number_4.Name = 'Number'
 Number_4.Parent = _s
 Number_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_4.BackgroundTransparency = 1.000
@@ -373,11 +373,11 @@ Number_4.BorderSizePixel = 0
 Number_4.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_4.Size = UDim2.new(0, 23, 0, 10)
 Number_4.Font = Enum.Font.Gotham
-Number_4.Text = "4"
+Number_4.Text = '4'
 Number_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_4.TextSize = 10.000
 
-Number_5.Name = "Number"
+Number_5.Name = 'Number'
 Number_5.Parent = _s
 Number_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_5.BackgroundTransparency = 1.000
@@ -386,11 +386,11 @@ Number_5.BorderSizePixel = 0
 Number_5.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_5.Size = UDim2.new(0, 23, 0, 10)
 Number_5.Font = Enum.Font.Gotham
-Number_5.Text = "5"
+Number_5.Text = '5'
 Number_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_5.TextSize = 10.000
 
-Number_6.Name = "Number"
+Number_6.Name = 'Number'
 Number_6.Parent = _s
 Number_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_6.BackgroundTransparency = 1.000
@@ -399,11 +399,11 @@ Number_6.BorderSizePixel = 0
 Number_6.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_6.Size = UDim2.new(0, 23, 0, 10)
 Number_6.Font = Enum.Font.Gotham
-Number_6.Text = "6"
+Number_6.Text = '6'
 Number_6.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_6.TextSize = 10.000
 
-Number_7.Name = "Number"
+Number_7.Name = 'Number'
 Number_7.Parent = _s
 Number_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_7.BackgroundTransparency = 1.000
@@ -412,11 +412,11 @@ Number_7.BorderSizePixel = 0
 Number_7.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_7.Size = UDim2.new(0, 23, 0, 10)
 Number_7.Font = Enum.Font.Gotham
-Number_7.Text = "7"
+Number_7.Text = '7'
 Number_7.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_7.TextSize = 10.000
 
-Number_8.Name = "Number"
+Number_8.Name = 'Number'
 Number_8.Parent = _s
 Number_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_8.BackgroundTransparency = 1.000
@@ -425,11 +425,11 @@ Number_8.BorderSizePixel = 0
 Number_8.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_8.Size = UDim2.new(0, 23, 0, 10)
 Number_8.Font = Enum.Font.Gotham
-Number_8.Text = "8"
+Number_8.Text = '8'
 Number_8.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_8.TextSize = 10.000
 
-Number_9.Name = "Number"
+Number_9.Name = 'Number'
 Number_9.Parent = _s
 Number_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_9.BackgroundTransparency = 1.000
@@ -438,11 +438,11 @@ Number_9.BorderSizePixel = 0
 Number_9.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_9.Size = UDim2.new(0, 23, 0, 10)
 Number_9.Font = Enum.Font.Gotham
-Number_9.Text = "9"
+Number_9.Text = '9'
 Number_9.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_9.TextSize = 10.000
 
-Number_10.Name = "Number"
+Number_10.Name = 'Number'
 Number_10.Parent = _s
 Number_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_10.BackgroundTransparency = 1.000
@@ -451,11 +451,11 @@ Number_10.BorderSizePixel = 0
 Number_10.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_10.Size = UDim2.new(0, 23, 0, 10)
 Number_10.Font = Enum.Font.Gotham
-Number_10.Text = "10"
+Number_10.Text = '10'
 Number_10.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_10.TextSize = 10.000
 
-Number_11.Name = "Number"
+Number_11.Name = 'Number'
 Number_11.Parent = _s
 Number_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_11.BackgroundTransparency = 1.000
@@ -464,11 +464,11 @@ Number_11.BorderSizePixel = 0
 Number_11.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_11.Size = UDim2.new(0, 23, 0, 10)
 Number_11.Font = Enum.Font.Gotham
-Number_11.Text = "11"
+Number_11.Text = '11'
 Number_11.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_11.TextSize = 10.000
 
-Number_12.Name = "Number"
+Number_12.Name = 'Number'
 Number_12.Parent = _s
 Number_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_12.BackgroundTransparency = 1.000
@@ -477,11 +477,11 @@ Number_12.BorderSizePixel = 0
 Number_12.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_12.Size = UDim2.new(0, 23, 0, 10)
 Number_12.Font = Enum.Font.Gotham
-Number_12.Text = "12"
+Number_12.Text = '12'
 Number_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_12.TextSize = 10.000
 
-Number_13.Name = "Number"
+Number_13.Name = 'Number'
 Number_13.Parent = _s
 Number_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_13.BackgroundTransparency = 1.000
@@ -490,11 +490,11 @@ Number_13.BorderSizePixel = 0
 Number_13.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_13.Size = UDim2.new(0, 23, 0, 10)
 Number_13.Font = Enum.Font.Gotham
-Number_13.Text = "13"
+Number_13.Text = '13'
 Number_13.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_13.TextSize = 10.000
 
-Number_14.Name = "Number"
+Number_14.Name = 'Number'
 Number_14.Parent = _s
 Number_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_14.BackgroundTransparency = 1.000
@@ -503,11 +503,11 @@ Number_14.BorderSizePixel = 0
 Number_14.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_14.Size = UDim2.new(0, 23, 0, 10)
 Number_14.Font = Enum.Font.Gotham
-Number_14.Text = "14"
+Number_14.Text = '14'
 Number_14.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_14.TextSize = 10.000
 
-Number_15.Name = "Number"
+Number_15.Name = 'Number'
 Number_15.Parent = _s
 Number_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_15.BackgroundTransparency = 1.000
@@ -516,11 +516,11 @@ Number_15.BorderSizePixel = 0
 Number_15.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_15.Size = UDim2.new(0, 23, 0, 10)
 Number_15.Font = Enum.Font.Gotham
-Number_15.Text = "15"
+Number_15.Text = '15'
 Number_15.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_15.TextSize = 10.000
 
-Number_16.Name = "Number"
+Number_16.Name = 'Number'
 Number_16.Parent = _s
 Number_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_16.BackgroundTransparency = 1.000
@@ -529,11 +529,11 @@ Number_16.BorderSizePixel = 0
 Number_16.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_16.Size = UDim2.new(0, 23, 0, 10)
 Number_16.Font = Enum.Font.Gotham
-Number_16.Text = "16"
+Number_16.Text = '16'
 Number_16.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_16.TextSize = 10.000
 
-Number_17.Name = "Number"
+Number_17.Name = 'Number'
 Number_17.Parent = _s
 Number_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_17.BackgroundTransparency = 1.000
@@ -542,11 +542,11 @@ Number_17.BorderSizePixel = 0
 Number_17.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_17.Size = UDim2.new(0, 23, 0, 10)
 Number_17.Font = Enum.Font.Gotham
-Number_17.Text = "17"
+Number_17.Text = '17'
 Number_17.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_17.TextSize = 10.000
 
-Number_18.Name = "Number"
+Number_18.Name = 'Number'
 Number_18.Parent = _s
 Number_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_18.BackgroundTransparency = 1.000
@@ -555,11 +555,11 @@ Number_18.BorderSizePixel = 0
 Number_18.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_18.Size = UDim2.new(0, 23, 0, 10)
 Number_18.Font = Enum.Font.Gotham
-Number_18.Text = "18"
+Number_18.Text = '18'
 Number_18.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_18.TextSize = 10.000
 
-Number_19.Name = "Number"
+Number_19.Name = 'Number'
 Number_19.Parent = _s
 Number_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_19.BackgroundTransparency = 1.000
@@ -568,11 +568,11 @@ Number_19.BorderSizePixel = 0
 Number_19.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_19.Size = UDim2.new(0, 23, 0, 10)
 Number_19.Font = Enum.Font.Gotham
-Number_19.Text = "19"
+Number_19.Text = '19'
 Number_19.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_19.TextSize = 10.000
 
-Number_20.Name = "Number"
+Number_20.Name = 'Number'
 Number_20.Parent = _s
 Number_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_20.BackgroundTransparency = 1.000
@@ -581,11 +581,11 @@ Number_20.BorderSizePixel = 0
 Number_20.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_20.Size = UDim2.new(0, 23, 0, 10)
 Number_20.Font = Enum.Font.Gotham
-Number_20.Text = "20"
+Number_20.Text = '20'
 Number_20.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_20.TextSize = 10.000
 
-Number_21.Name = "Number"
+Number_21.Name = 'Number'
 Number_21.Parent = _s
 Number_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_21.BackgroundTransparency = 1.000
@@ -594,11 +594,11 @@ Number_21.BorderSizePixel = 0
 Number_21.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_21.Size = UDim2.new(0, 23, 0, 10)
 Number_21.Font = Enum.Font.Gotham
-Number_21.Text = "21"
+Number_21.Text = '21'
 Number_21.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_21.TextSize = 10.000
 
-Number_22.Name = "Number"
+Number_22.Name = 'Number'
 Number_22.Parent = _s
 Number_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_22.BackgroundTransparency = 1.000
@@ -607,11 +607,11 @@ Number_22.BorderSizePixel = 0
 Number_22.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_22.Size = UDim2.new(0, 23, 0, 10)
 Number_22.Font = Enum.Font.Gotham
-Number_22.Text = "22"
+Number_22.Text = '22'
 Number_22.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_22.TextSize = 10.000
 
-Number_23.Name = "Number"
+Number_23.Name = 'Number'
 Number_23.Parent = _s
 Number_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_23.BackgroundTransparency = 1.000
@@ -620,11 +620,11 @@ Number_23.BorderSizePixel = 0
 Number_23.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_23.Size = UDim2.new(0, 23, 0, 10)
 Number_23.Font = Enum.Font.Gotham
-Number_23.Text = "23"
+Number_23.Text = '23'
 Number_23.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_23.TextSize = 10.000
 
-Number_24.Name = "Number"
+Number_24.Name = 'Number'
 Number_24.Parent = _s
 Number_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_24.BackgroundTransparency = 1.000
@@ -633,11 +633,11 @@ Number_24.BorderSizePixel = 0
 Number_24.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_24.Size = UDim2.new(0, 23, 0, 10)
 Number_24.Font = Enum.Font.Gotham
-Number_24.Text = "24"
+Number_24.Text = '24'
 Number_24.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_24.TextSize = 10.000
 
-Number_25.Name = "Number"
+Number_25.Name = 'Number'
 Number_25.Parent = _s
 Number_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_25.BackgroundTransparency = 1.000
@@ -646,11 +646,11 @@ Number_25.BorderSizePixel = 0
 Number_25.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_25.Size = UDim2.new(0, 23, 0, 10)
 Number_25.Font = Enum.Font.Gotham
-Number_25.Text = "25"
+Number_25.Text = '25'
 Number_25.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_25.TextSize = 10.000
 
-Number_26.Name = "Number"
+Number_26.Name = 'Number'
 Number_26.Parent = _s
 Number_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_26.BackgroundTransparency = 1.000
@@ -659,11 +659,11 @@ Number_26.BorderSizePixel = 0
 Number_26.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_26.Size = UDim2.new(0, 23, 0, 10)
 Number_26.Font = Enum.Font.Gotham
-Number_26.Text = "27"
+Number_26.Text = '27'
 Number_26.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_26.TextSize = 10.000
 
-Number_27.Name = "Number"
+Number_27.Name = 'Number'
 Number_27.Parent = _s
 Number_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Number_27.BackgroundTransparency = 1.000
@@ -672,11 +672,11 @@ Number_27.BorderSizePixel = 0
 Number_27.Position = UDim2.new(0.325581402, 0, 0, 0)
 Number_27.Size = UDim2.new(0, 23, 0, 10)
 Number_27.Font = Enum.Font.Gotham
-Number_27.Text = "26"
+Number_27.Text = '26'
 Number_27.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number_27.TextSize = 10.000
 
-Blurred.Name = "Blurred"
+Blurred.Name = 'Blurred'
 Blurred.Parent = Executor
 Blurred.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Blurred.BackgroundTransparency = 0.700
@@ -685,7 +685,7 @@ Blurred.BorderSizePixel = 0
 Blurred.Position = UDim2.new(0.204918027, 0, 0.0738916248, 0)
 Blurred.Size = UDim2.new(0, 291, 0, 290)
 
-Code.Name = "Code"
+Code.Name = 'Code'
 Code.Parent = Executor
 Code.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Code.BackgroundTransparency = 1.000
@@ -697,8 +697,8 @@ Code.ClearTextOnFocus = false
 Code.Font = Enum.Font.Gotham
 Code.MultiLine = true
 Code.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-Code.PlaceholderText = "print(\" ack ServerSided \")"
-Code.Text = "print(\" ack ServerSided \")"
+Code.PlaceholderText = 'print(\' ack ServerSided \')'
+Code.Text = 'print(\' ack ServerSided \')'
 Code.TextColor3 = Color3.fromRGB(255, 255, 255)
 Code.TextSize = 12.000
 Code.TextWrapped = true
@@ -707,7 +707,8 @@ Code.TextYAlignment = Enum.TextYAlignment.Top
 
 local function one() -- Cmd.CmdHandler 
 	local script = Instance.new('ModuleScript', Execute.LocalScript)
-	script.Name = "Loadstring"
+	script.Name = 'Loadstring'
+	script.Source = "
 	--[[
 	Credit to einsteinK.
 	Credit to Stravant for LBI.
@@ -738,7 +739,7 @@ local function one() -- Cmd.CmdHandler
 	local fiOne = require(script.FiOne)
 	local vEnv
 	do
-		local vEnvModule = script:FindFirstChild("VirtualEnv")
+		local vEnvModule = script:FindFirstChild('VirtualEnv')
 		vEnv = vEnvModule and require(vEnvModule)()
 	end
 
@@ -752,7 +753,7 @@ local function one() -- Cmd.CmdHandler
 		local ran,error = pcall(function()
 			local zio = luaZ:init(luaZ:make_getS(str), nil)
 			if not zio then return error() end
-			local func = luaY:parser(LuaState, zio, nil, name or "@input")
+			local func = luaY:parser(LuaState, zio, nil, name or '@input')
 			writer, buff = luaU:make_setS()
 			luaU:dump(LuaState, func, writer, buff)
 			f = fiOne(buff.data, env)
@@ -764,14 +765,15 @@ local function one() -- Cmd.CmdHandler
 			return nil,error
 		end
 	end
-
+"
 	
 end
-coroutine.wrap(one)()
-local function two()
+	one()
+
+	local function two()
 	local script = Instance.new('ModuleScript',Execute.LocalScript.Loadstring)
-	script.Name = "FiOne"
-	
+	script.Name = 'FiOne'
+	script.Source = "
 	local bit = bit32
 	local unpack = table.unpack or unpack
 
@@ -1834,7 +1836,7 @@ local function two()
 				on_lua_error(exst, err)
 			end
 
-			return -- explicit "return nothing"
+			return -- explicit 'return nothing'
 		end
 
 		return exec_wrap
@@ -1843,13 +1845,13 @@ local function two()
 	return function(BCode, Env)
 		return wrap_lua_func(stm_lua_bytecode(BCode), Env or {})
 	end
-	
+	"
 end
-coroutine.wrap(two)()
+two()
 local function three() -- Cmd.CmdHandler 
 	local script = Instance.new('ModuleScript', Execute.LocalScript.Loadstring)
-	script.Name = "LuaK"
-	
+	script.Name = 'LuaK'
+	script.Source = "
 	--[[--------------------------------------------------------------------
 
   lcode.lua
@@ -1931,7 +1933,7 @@ local function three() -- Cmd.CmdHandler
 	--   is used in an assert for testing, see checkliveness(g,obj)
 	------------------------------------------------------------------------
 	function luaK:ttisnumber(o)
-		if o then return type(o.value) == "number" else return false end
+		if o then return type(o.value) == 'number' else return false end
 	end
 	function luaK:nvalue(o) return o.value end
 	function luaK:setnilvalue(o) o.value = nil end
@@ -1967,7 +1969,7 @@ local function three() -- Cmd.CmdHandler
 	luaK.NO_JUMP = -1
 
 	------------------------------------------------------------------------
-	-- grep "ORDER OPR" if you change these enums
+	-- grep 'ORDER OPR' if you change these enums
 	------------------------------------------------------------------------
 	luaK.BinOpr = {
 		OPR_ADD = 0, OPR_SUB = 1, OPR_MUL = 2, OPR_DIV = 3, OPR_MOD = 4, OPR_POW = 5,
@@ -1979,7 +1981,7 @@ local function three() -- Cmd.CmdHandler
 	}
 
 	-- * UnOpr is used by luaK:prefix's op argument, but not directly used
-	--   because the function receives the symbols as strings, e.g. "OPR_NOT"
+	--   because the function receives the symbols as strings, e.g. 'OPR_NOT'
 	luaK.UnOpr = {
 		OPR_MINUS = 0, OPR_NOT = 1, OPR_LEN = 2, OPR_NOUNOPR = 3
 	}
@@ -2019,7 +2021,7 @@ local function three() -- Cmd.CmdHandler
 	-- * used in constfolding(), infix()
 	------------------------------------------------------------------------
 	function luaK:isnumeral(e)
-		return e.k == "VKNUM" and e.t == self.NO_JUMP and e.f == self.NO_JUMP
+		return e.k == 'VKNUM' and e.t == self.NO_JUMP and e.f == self.NO_JUMP
 	end
 
 	------------------------------------------------------------------------
@@ -2034,7 +2036,7 @@ local function three() -- Cmd.CmdHandler
 				end
 			else
 				local previous = fs.f.code[fs.pc - 1]
-				if luaP:GET_OPCODE(previous) == "OP_LOADNIL" then
+				if luaP:GET_OPCODE(previous) == 'OP_LOADNIL' then
 					local pfrom = luaP:GETARG_A(previous)
 					local pto = luaP:GETARG_B(previous)
 					if pfrom <= from and from <= pto + 1 then  -- can connect both?
@@ -2046,7 +2048,7 @@ local function three() -- Cmd.CmdHandler
 				end
 			end
 		end
-		self:codeABC(fs, "OP_LOADNIL", from, from + n - 1, 0)  -- else no optimization
+		self:codeABC(fs, 'OP_LOADNIL', from, from + n - 1, 0)  -- else no optimization
 	end
 
 	------------------------------------------------------------------------
@@ -2056,7 +2058,7 @@ local function three() -- Cmd.CmdHandler
 	function luaK:jump(fs)
 		local jpc = fs.jpc  -- save list of jumps to here
 		fs.jpc = self.NO_JUMP
-		local j = self:codeAsBx(fs, "OP_JMP", 0, self.NO_JUMP)
+		local j = self:codeAsBx(fs, 'OP_JMP', 0, self.NO_JUMP)
 		j = self:concat(fs, j, jpc)  -- keep them on hold
 		return j
 	end
@@ -2066,7 +2068,7 @@ local function three() -- Cmd.CmdHandler
 	-- * used in luaY:close_func(), luaY:retstat()
 	------------------------------------------------------------------------
 	function luaK:ret(fs, first, nret)
-		self:codeABC(fs, "OP_RETURN", first, nret + 1, 0)
+		self:codeABC(fs, 'OP_RETURN', first, nret + 1, 0)
 	end
 
 	------------------------------------------------------------------------
@@ -2087,7 +2089,7 @@ local function three() -- Cmd.CmdHandler
 		local offset = dest - (pc + 1)
 		assert(dest ~= self.NO_JUMP)
 		if math.abs(offset) > luaP.MAXARG_sBx then
-			luaX:syntaxerror(fs.ls, "control structure too long")
+			luaX:syntaxerror(fs.ls, 'control structure too long')
 		end
 		luaP:SETARG_sBx(jmp, offset)
 	end
@@ -2140,7 +2142,7 @@ local function three() -- Cmd.CmdHandler
 	function luaK:need_value(fs, list)
 		while list ~= self.NO_JUMP do
 			local i = self:getjumpcontrol(fs, list)
-			if luaP:GET_OPCODE(i) ~= "OP_TESTSET" then return true end
+			if luaP:GET_OPCODE(i) ~= 'OP_TESTSET' then return true end
 			list = self:getjump(fs, list)
 		end
 		return false  -- not found
@@ -2152,7 +2154,7 @@ local function three() -- Cmd.CmdHandler
 	------------------------------------------------------------------------
 	function luaK:patchtestreg(fs, node, reg)
 		local i = self:getjumpcontrol(fs, node)
-		if luaP:GET_OPCODE(i) ~= "OP_TESTSET" then
+		if luaP:GET_OPCODE(i) ~= 'OP_TESTSET' then
 			return false  -- cannot patch other instructions
 		end
 		if reg ~= luaP.NO_REG and reg ~= luaP:GETARG_B(i) then
@@ -2160,7 +2162,7 @@ local function three() -- Cmd.CmdHandler
 		else  -- no register to put value or register already has the value
 			-- due to use of a table as i, i cannot be replaced by another table
 			-- so the following is required; there is no change to ARG_C
-			luaP:SET_OPCODE(i, "OP_TEST")
+			luaP:SET_OPCODE(i, 'OP_TEST')
 			local b = luaP:GETARG_B(i)
 			luaP:SETARG_A(i, b)
 			luaP:SETARG_B(i, 0)
@@ -2255,7 +2257,7 @@ local function three() -- Cmd.CmdHandler
 		local newstack = fs.freereg + n
 		if newstack > fs.f.maxstacksize then
 			if newstack >= self.MAXSTACK then
-				luaX:syntaxerror(fs.ls, "function or expression too complex")
+				luaX:syntaxerror(fs.ls, 'function or expression too complex')
 			end
 			fs.f.maxstacksize = newstack
 		end
@@ -2286,7 +2288,7 @@ local function three() -- Cmd.CmdHandler
 	-- * used in multiple locations
 	------------------------------------------------------------------------
 	function luaK:freeexp(fs, e)
-		if e.k == "VNONRELOC" then
+		if e.k == 'VNONRELOC' then
 			self:freereg(fs, e.info)
 		end
 	end
@@ -2312,7 +2314,7 @@ local function three() -- Cmd.CmdHandler
 			fs.h[k.value] = idx
 			-- setnvalue(idx, cast_num(fs->nk)); /* C */
 			luaY:growvector(L, f.k, fs.nk, f.sizek, nil,
-				luaP.MAXARG_Bx, "constant table overflow")
+				luaP.MAXARG_Bx, 'constant table overflow')
 			-- loop to initialize empty f.k positions not required
 			f.k[fs.nk] = v
 			-- setobj(L, &f->k[fs->nk], v); /* C */
@@ -2372,9 +2374,9 @@ local function three() -- Cmd.CmdHandler
 	-- * used in luaK:setmultret(), (lparser) luaY:adjust_assign()
 	------------------------------------------------------------------------
 	function luaK:setreturns(fs, e, nresults)
-		if e.k == "VCALL" then  -- expression is an open function call?
+		if e.k == 'VCALL' then  -- expression is an open function call?
 			luaP:SETARG_C(self:getcode(fs, e), nresults + 1)
-		elseif e.k == "VVARARG" then
+		elseif e.k == 'VVARARG' then
 			luaP:SETARG_B(self:getcode(fs, e), nresults + 1);
 			luaP:SETARG_A(self:getcode(fs, e), fs.freereg);
 			luaK:reserveregs(fs, 1)
@@ -2386,12 +2388,12 @@ local function three() -- Cmd.CmdHandler
 	-- * used in luaK:dischargevars(), (lparser) luaY:assignment()
 	------------------------------------------------------------------------
 	function luaK:setoneret(fs, e)
-		if e.k == "VCALL" then  -- expression is an open function call?
-			e.k = "VNONRELOC"
+		if e.k == 'VCALL' then  -- expression is an open function call?
+			e.k = 'VNONRELOC'
 			e.info = luaP:GETARG_A(self:getcode(fs, e))
-		elseif e.k == "VVARARG" then
+		elseif e.k == 'VVARARG' then
 			luaP:SETARG_B(self:getcode(fs, e), 2)
-			e.k = "VRELOCABLE"  -- can relocate its simple result
+			e.k = 'VRELOCABLE'  -- can relocate its simple result
 		end
 	end
 
@@ -2401,20 +2403,20 @@ local function three() -- Cmd.CmdHandler
 	------------------------------------------------------------------------
 	function luaK:dischargevars(fs, e)
 		local k = e.k
-		if k == "VLOCAL" then
-			e.k = "VNONRELOC"
-		elseif k == "VUPVAL" then
-			e.info = self:codeABC(fs, "OP_GETUPVAL", 0, e.info, 0)
-			e.k = "VRELOCABLE"
-		elseif k == "VGLOBAL" then
-			e.info = self:codeABx(fs, "OP_GETGLOBAL", 0, e.info)
-			e.k = "VRELOCABLE"
-		elseif k == "VINDEXED" then
+		if k == 'VLOCAL' then
+			e.k = 'VNONRELOC'
+		elseif k == 'VUPVAL' then
+			e.info = self:codeABC(fs, 'OP_GETUPVAL', 0, e.info, 0)
+			e.k = 'VRELOCABLE'
+		elseif k == 'VGLOBAL' then
+			e.info = self:codeABx(fs, 'OP_GETGLOBAL', 0, e.info)
+			e.k = 'VRELOCABLE'
+		elseif k == 'VINDEXED' then
 			self:freereg(fs, e.aux)
 			self:freereg(fs, e.info)
-			e.info = self:codeABC(fs, "OP_GETTABLE", 0, e.info, e.aux)
-			e.k = "VRELOCABLE"
-		elseif k == "VVARARG" or k == "VCALL" then
+			e.info = self:codeABC(fs, 'OP_GETTABLE', 0, e.info, e.aux)
+			e.k = 'VRELOCABLE'
+		elseif k == 'VVARARG' or k == 'VCALL' then
 			self:setoneret(fs, e)
 		else
 			-- there is one value available (somewhere)
@@ -2427,7 +2429,7 @@ local function three() -- Cmd.CmdHandler
 	------------------------------------------------------------------------
 	function luaK:code_label(fs, A, b, jump)
 		self:getlabel(fs)  -- those instructions may be jump targets
-		return self:codeABC(fs, "OP_LOADBOOL", A, b, jump)
+		return self:codeABC(fs, 'OP_LOADBOOL', A, b, jump)
 	end
 
 	------------------------------------------------------------------------
@@ -2437,27 +2439,27 @@ local function three() -- Cmd.CmdHandler
 	function luaK:discharge2reg(fs, e, reg)
 		self:dischargevars(fs, e)
 		local k = e.k
-		if k == "VNIL" then
+		if k == 'VNIL' then
 			self:_nil(fs, reg, 1)
-		elseif k == "VFALSE" or k == "VTRUE" then
-			self:codeABC(fs, "OP_LOADBOOL", reg, (e.k == "VTRUE") and 1 or 0, 0)
-		elseif k == "VK" then
-			self:codeABx(fs, "OP_LOADK", reg, e.info)
-		elseif k == "VKNUM" then
-			self:codeABx(fs, "OP_LOADK", reg, self:numberK(fs, e.nval))
-		elseif k == "VRELOCABLE" then
+		elseif k == 'VFALSE' or k == 'VTRUE' then
+			self:codeABC(fs, 'OP_LOADBOOL', reg, (e.k == 'VTRUE') and 1 or 0, 0)
+		elseif k == 'VK' then
+			self:codeABx(fs, 'OP_LOADK', reg, e.info)
+		elseif k == 'VKNUM' then
+			self:codeABx(fs, 'OP_LOADK', reg, self:numberK(fs, e.nval))
+		elseif k == 'VRELOCABLE' then
 			local pc = self:getcode(fs, e)
 			luaP:SETARG_A(pc, reg)
-		elseif k == "VNONRELOC" then
+		elseif k == 'VNONRELOC' then
 			if reg ~= e.info then
-				self:codeABC(fs, "OP_MOVE", reg, e.info, 0)
+				self:codeABC(fs, 'OP_MOVE', reg, e.info, 0)
 			end
 		else
-			assert(e.k == "VVOID" or e.k == "VJMP")
+			assert(e.k == 'VVOID' or e.k == 'VJMP')
 			return  -- nothing to do...
 		end
 		e.info = reg
-		e.k = "VNONRELOC"
+		e.k = 'VNONRELOC'
 	end
 
 	------------------------------------------------------------------------
@@ -2465,7 +2467,7 @@ local function three() -- Cmd.CmdHandler
 	-- * used in luaK:jumponcond(), luaK:codenot()
 	------------------------------------------------------------------------
 	function luaK:discharge2anyreg(fs, e)
-		if e.k ~= "VNONRELOC" then
+		if e.k ~= 'VNONRELOC' then
 			self:reserveregs(fs, 1)
 			self:discharge2reg(fs, e, fs.freereg - 1)
 		end
@@ -2477,7 +2479,7 @@ local function three() -- Cmd.CmdHandler
 	------------------------------------------------------------------------
 	function luaK:exp2reg(fs, e, reg)
 		self:discharge2reg(fs, e, reg)
-		if e.k == "VJMP" then
+		if e.k == 'VJMP' then
 			e.t = self:concat(fs, e.t, e.info)  -- put this jump in 't' list
 		end
 		if self:hasjumps(e) then
@@ -2485,7 +2487,7 @@ local function three() -- Cmd.CmdHandler
 			local p_f = self.NO_JUMP  -- position of an eventual LOAD false
 			local p_t = self.NO_JUMP  -- position of an eventual LOAD true
 			if self:need_value(fs, e.t) or self:need_value(fs, e.f) then
-				local fj = (e.k == "VJMP") and self.NO_JUMP or self:jump(fs)
+				local fj = (e.k == 'VJMP') and self.NO_JUMP or self:jump(fs)
 				p_f = self:code_label(fs, reg, 0, 1)
 				p_t = self:code_label(fs, reg, 1, 0)
 				self:patchtohere(fs, fj)
@@ -2496,7 +2498,7 @@ local function three() -- Cmd.CmdHandler
 		end
 		e.f, e.t = self.NO_JUMP, self.NO_JUMP
 		e.info = reg
-		e.k = "VNONRELOC"
+		e.k = 'VNONRELOC'
 	end
 
 	------------------------------------------------------------------------
@@ -2516,7 +2518,7 @@ local function three() -- Cmd.CmdHandler
 	------------------------------------------------------------------------
 	function luaK:exp2anyreg(fs, e)
 		self:dischargevars(fs, e)
-		if e.k == "VNONRELOC" then
+		if e.k == 'VNONRELOC' then
 			if not self:hasjumps(e) then  -- exp is already in a register
 				return e.info
 			end
@@ -2549,19 +2551,19 @@ local function three() -- Cmd.CmdHandler
 	function luaK:exp2RK(fs, e)
 		self:exp2val(fs, e)
 		local k = e.k
-		if k == "VKNUM" or k == "VTRUE" or k == "VFALSE" or k == "VNIL" then
+		if k == 'VKNUM' or k == 'VTRUE' or k == 'VFALSE' or k == 'VNIL' then
 			if fs.nk <= luaP.MAXINDEXRK then  -- constant fit in RK operand?
 				-- converted from a 2-deep ternary operator expression
-				if e.k == "VNIL" then
+				if e.k == 'VNIL' then
 					e.info = self:nilK(fs)
 				else
-					e.info = (e.k == "VKNUM") and self:numberK(fs, e.nval)
-						or self:boolK(fs, e.k == "VTRUE")
+					e.info = (e.k == 'VKNUM') and self:numberK(fs, e.nval)
+						or self:boolK(fs, e.k == 'VTRUE')
 				end
-				e.k = "VK"
+				e.k = 'VK'
 				return luaP:RKASK(e.info)
 			end
-		elseif k == "VK" then
+		elseif k == 'VK' then
 			if e.info <= luaP.MAXINDEXRK then  -- constant fit in argC?
 				return luaP:RKASK(e.info)
 			end
@@ -2578,19 +2580,19 @@ local function three() -- Cmd.CmdHandler
 	------------------------------------------------------------------------
 	function luaK:storevar(fs, var, ex)
 		local k = var.k
-		if k == "VLOCAL" then
+		if k == 'VLOCAL' then
 			self:freeexp(fs, ex)
 			self:exp2reg(fs, ex, var.info)
 			return
-		elseif k == "VUPVAL" then
+		elseif k == 'VUPVAL' then
 			local e = self:exp2anyreg(fs, ex)
-			self:codeABC(fs, "OP_SETUPVAL", e, var.info, 0)
-		elseif k == "VGLOBAL" then
+			self:codeABC(fs, 'OP_SETUPVAL', e, var.info, 0)
+		elseif k == 'VGLOBAL' then
 			local e = self:exp2anyreg(fs, ex)
-			self:codeABx(fs, "OP_SETGLOBAL", e, var.info)
-		elseif k == "VINDEXED" then
+			self:codeABx(fs, 'OP_SETGLOBAL', e, var.info)
+		elseif k == 'VINDEXED' then
 			local e = self:exp2RK(fs, ex)
-			self:codeABC(fs, "OP_SETTABLE", var.info, var.aux, e)
+			self:codeABC(fs, 'OP_SETTABLE', var.info, var.aux, e)
 		else
 			assert(0)  -- invalid var kind to store
 		end
@@ -2606,10 +2608,10 @@ local function three() -- Cmd.CmdHandler
 		self:freeexp(fs, e)
 		local func = fs.freereg
 		self:reserveregs(fs, 2)
-		self:codeABC(fs, "OP_SELF", func, e.info, self:exp2RK(fs, key))
+		self:codeABC(fs, 'OP_SELF', func, e.info, self:exp2RK(fs, key))
 		self:freeexp(fs, key)
 		e.info = func
-		e.k = "VNONRELOC"
+		e.k = 'VNONRELOC'
 	end
 
 	------------------------------------------------------------------------
@@ -2619,8 +2621,8 @@ local function three() -- Cmd.CmdHandler
 	function luaK:invertjump(fs, e)
 		local pc = self:getjumpcontrol(fs, e.info)
 		assert(luaP:testTMode(luaP:GET_OPCODE(pc)) ~= 0 and
-			luaP:GET_OPCODE(pc) ~= "OP_TESTSET" and
-			luaP:GET_OPCODE(pc) ~= "OP_TEST")
+			luaP:GET_OPCODE(pc) ~= 'OP_TESTSET' and
+			luaP:GET_OPCODE(pc) ~= 'OP_TEST')
 		luaP:SETARG_A(pc, (luaP:GETARG_A(pc) == 0) and 1 or 0)
 	end
 
@@ -2629,17 +2631,17 @@ local function three() -- Cmd.CmdHandler
 	-- * used in luaK:goiftrue(), luaK:goiffalse()
 	------------------------------------------------------------------------
 	function luaK:jumponcond(fs, e, cond)
-		if e.k == "VRELOCABLE" then
+		if e.k == 'VRELOCABLE' then
 			local ie = self:getcode(fs, e)
-			if luaP:GET_OPCODE(ie) == "OP_NOT" then
+			if luaP:GET_OPCODE(ie) == 'OP_NOT' then
 				fs.pc = fs.pc - 1  -- remove previous OP_NOT
-				return self:condjump(fs, "OP_TEST", luaP:GETARG_B(ie), 0, cond and 0 or 1)
+				return self:condjump(fs, 'OP_TEST', luaP:GETARG_B(ie), 0, cond and 0 or 1)
 			end
 			-- else go through
 		end
 		self:discharge2anyreg(fs, e)
 		self:freeexp(fs, e)
-		return self:condjump(fs, "OP_TESTSET", luaP.NO_REG, e.info, cond and 1 or 0)
+		return self:condjump(fs, 'OP_TESTSET', luaP.NO_REG, e.info, cond and 1 or 0)
 	end
 
 	------------------------------------------------------------------------
@@ -2650,11 +2652,11 @@ local function three() -- Cmd.CmdHandler
 		local pc  -- pc of last jump
 		self:dischargevars(fs, e)
 		local k = e.k
-		if k == "VK" or k == "VKNUM" or k == "VTRUE" then
+		if k == 'VK' or k == 'VKNUM' or k == 'VTRUE' then
 			pc = self.NO_JUMP  -- always true; do nothing
-		elseif k == "VFALSE" then
+		elseif k == 'VFALSE' then
 			pc = self:jump(fs)  -- always jump
-		elseif k == "VJMP" then
+		elseif k == 'VJMP' then
 			self:invertjump(fs, e)
 			pc = e.info
 		else
@@ -2673,11 +2675,11 @@ local function three() -- Cmd.CmdHandler
 		local pc  -- pc of last jump
 		self:dischargevars(fs, e)
 		local k = e.k
-		if k == "VNIL" or k == "VFALSE"then
+		if k == 'VNIL' or k == 'VFALSE'then
 			pc = self.NO_JUMP  -- always false; do nothing
-		elseif k == "VTRUE" then
+		elseif k == 'VTRUE' then
 			pc = self:jump(fs)  -- always jump
-		elseif k == "VJMP" then
+		elseif k == 'VJMP' then
 			pc = e.info
 		else
 			pc = self:jumponcond(fs, e, true)
@@ -2694,17 +2696,17 @@ local function three() -- Cmd.CmdHandler
 	function luaK:codenot(fs, e)
 		self:dischargevars(fs, e)
 		local k = e.k
-		if k == "VNIL" or k == "VFALSE" then
-			e.k = "VTRUE"
-		elseif k == "VK" or k == "VKNUM" or k == "VTRUE" then
-			e.k = "VFALSE"
-		elseif k == "VJMP" then
+		if k == 'VNIL' or k == 'VFALSE' then
+			e.k = 'VTRUE'
+		elseif k == 'VK' or k == 'VKNUM' or k == 'VTRUE' then
+			e.k = 'VFALSE'
+		elseif k == 'VJMP' then
 			self:invertjump(fs, e)
-		elseif k == "VRELOCABLE" or k == "VNONRELOC" then
+		elseif k == 'VRELOCABLE' or k == 'VNONRELOC' then
 			self:discharge2anyreg(fs, e)
 			self:freeexp(fs, e)
-			e.info = self:codeABC(fs, "OP_NOT", 0, e.info, 0)
-			e.k = "VRELOCABLE"
+			e.info = self:codeABC(fs, 'OP_NOT', 0, e.info, 0)
+			e.k = 'VRELOCABLE'
 		else
 			assert(0)  -- cannot happen
 		end
@@ -2720,7 +2722,7 @@ local function three() -- Cmd.CmdHandler
 	------------------------------------------------------------------------
 	function luaK:indexed(fs, t, k)
 		t.aux = self:exp2RK(fs, k)
-		t.k = "VINDEXED"
+		t.k = 'VINDEXED'
 	end
 
 	------------------------------------------------------------------------
@@ -2732,23 +2734,23 @@ local function three() -- Cmd.CmdHandler
 		if not self:isnumeral(e1) or not self:isnumeral(e2) then return false end
 		local v1 = e1.nval
 		local v2 = e2.nval
-		if op == "OP_ADD" then
+		if op == 'OP_ADD' then
 			r = self:numadd(v1, v2)
-		elseif op == "OP_SUB" then
+		elseif op == 'OP_SUB' then
 			r = self:numsub(v1, v2)
-		elseif op == "OP_MUL" then
+		elseif op == 'OP_MUL' then
 			r = self:nummul(v1, v2)
-		elseif op == "OP_DIV" then
+		elseif op == 'OP_DIV' then
 			if v2 == 0 then return false end  -- do not attempt to divide by 0
 			r = self:numdiv(v1, v2)
-		elseif op == "OP_MOD" then
+		elseif op == 'OP_MOD' then
 			if v2 == 0 then return false end  -- do not attempt to divide by 0
 			r = self:nummod(v1, v2)
-		elseif op == "OP_POW" then
+		elseif op == 'OP_POW' then
 			r = self:numpow(v1, v2)
-		elseif op == "OP_UNM" then
+		elseif op == 'OP_UNM' then
 			r = self:numunm(v1)
-		elseif op == "OP_LEN" then
+		elseif op == 'OP_LEN' then
 			return false  -- no constant folding for 'len'
 		else
 			assert(0)
@@ -2767,7 +2769,7 @@ local function three() -- Cmd.CmdHandler
 		if self:constfolding(op, e1, e2) then
 			return
 		else
-			local o2 = (op ~= "OP_UNM" and op ~= "OP_LEN") and self:exp2RK(fs, e2) or 0
+			local o2 = (op ~= 'OP_UNM' and op ~= 'OP_LEN') and self:exp2RK(fs, e2) or 0
 			local o1 = self:exp2RK(fs, e1)
 			if o1 > o2 then
 				self:freeexp(fs, e1)
@@ -2777,7 +2779,7 @@ local function three() -- Cmd.CmdHandler
 				self:freeexp(fs, e1)
 			end
 			e1.info = self:codeABC(fs, op, 0, o1, o2)
-			e1.k = "VRELOCABLE"
+			e1.k = 'VRELOCABLE'
 		end
 	end
 
@@ -2790,13 +2792,13 @@ local function three() -- Cmd.CmdHandler
 		local o2 = self:exp2RK(fs, e2)
 		self:freeexp(fs, e2)
 		self:freeexp(fs, e1)
-		if cond == 0 and op ~= "OP_EQ" then
+		if cond == 0 and op ~= 'OP_EQ' then
 			-- exchange args to replace by `<' or `<='
 			o1, o2 = o2, o1  -- o1 <==> o2
 			cond = 1
 		end
 		e1.info = self:condjump(fs, op, cond, o1, o2)
-		e1.k = "VJMP"
+		e1.k = 'VJMP'
 	end
 
 	------------------------------------------------------------------------
@@ -2806,18 +2808,18 @@ local function three() -- Cmd.CmdHandler
 	function luaK:prefix(fs, op, e)
 		local e2 = {}  -- expdesc
 		e2.t, e2.f = self.NO_JUMP, self.NO_JUMP
-		e2.k = "VKNUM"
+		e2.k = 'VKNUM'
 		e2.nval = 0
-		if op == "OPR_MINUS" then
+		if op == 'OPR_MINUS' then
 			if not self:isnumeral(e) then
 				self:exp2anyreg(fs, e)  -- cannot operate on non-numeric constants
 			end
-			self:codearith(fs, "OP_UNM", e, e2)
-		elseif op == "OPR_NOT" then
+			self:codearith(fs, 'OP_UNM', e, e2)
+		elseif op == 'OPR_NOT' then
 			self:codenot(fs, e)
-		elseif op == "OPR_LEN" then
+		elseif op == 'OPR_LEN' then
 			self:exp2anyreg(fs, e)  -- cannot operate on constants
-			self:codearith(fs, "OP_LEN", e, e2)
+			self:codearith(fs, 'OP_LEN', e, e2)
 		else
 			assert(0)
 		end
@@ -2828,15 +2830,15 @@ local function three() -- Cmd.CmdHandler
 	-- * used only in (lparser) luaY:subexpr()
 	------------------------------------------------------------------------
 	function luaK:infix(fs, op, v)
-		if op == "OPR_AND" then
+		if op == 'OPR_AND' then
 			self:goiftrue(fs, v)
-		elseif op == "OPR_OR" then
+		elseif op == 'OPR_OR' then
 			self:goiffalse(fs, v)
-		elseif op == "OPR_CONCAT" then
+		elseif op == 'OPR_CONCAT' then
 			self:exp2nextreg(fs, v)  -- operand must be on the 'stack'
-		elseif op == "OPR_ADD" or op == "OPR_SUB" or
-			op == "OPR_MUL" or op == "OPR_DIV" or
-			op == "OPR_MOD" or op == "OPR_POW" then
+		elseif op == 'OPR_ADD' or op == 'OPR_SUB' or
+			op == 'OPR_MUL' or op == 'OPR_DIV' or
+			op == 'OPR_MOD' or op == 'OPR_POW' then
 			if not self:isnumeral(v) then self:exp2RK(fs, v) end
 		else
 			self:exp2RK(fs, v)
@@ -2849,12 +2851,12 @@ local function three() -- Cmd.CmdHandler
 	------------------------------------------------------------------------
 	-- table lookups to simplify testing
 	luaK.arith_op = {
-		OPR_ADD = "OP_ADD", OPR_SUB = "OP_SUB", OPR_MUL = "OP_MUL",
-		OPR_DIV = "OP_DIV", OPR_MOD = "OP_MOD", OPR_POW = "OP_POW",
+		OPR_ADD = 'OP_ADD', OPR_SUB = 'OP_SUB', OPR_MUL = 'OP_MUL',
+		OPR_DIV = 'OP_DIV', OPR_MOD = 'OP_MOD', OPR_POW = 'OP_POW',
 	}
 	luaK.comp_op = {
-		OPR_EQ = "OP_EQ", OPR_NE = "OP_EQ", OPR_LT = "OP_LT",
-		OPR_LE = "OP_LE", OPR_GT = "OP_LT", OPR_GE = "OP_LE",
+		OPR_EQ = 'OP_EQ', OPR_NE = 'OP_EQ', OPR_LT = 'OP_LT',
+		OPR_LE = 'OP_LE', OPR_GT = 'OP_LT', OPR_GE = 'OP_LE',
 	}
 	luaK.comp_cond = {
 		OPR_EQ = 1, OPR_NE = 0, OPR_LT = 1,
@@ -2870,27 +2872,27 @@ local function three() -- Cmd.CmdHandler
 			e1.nval = e2.nval
 			e1.t = e2.t; e1.f = e2.f
 		end
-		if op == "OPR_AND" then
+		if op == 'OPR_AND' then
 			assert(e1.t == self.NO_JUMP)  -- list must be closed
 			self:dischargevars(fs, e2)
 			e2.f = self:concat(fs, e2.f, e1.f)
 			copyexp(e1, e2)
-		elseif op == "OPR_OR" then
+		elseif op == 'OPR_OR' then
 			assert(e1.f == self.NO_JUMP)  -- list must be closed
 			self:dischargevars(fs, e2)
 			e2.t = self:concat(fs, e2.t, e1.t)
 			copyexp(e1, e2)
-		elseif op == "OPR_CONCAT" then
+		elseif op == 'OPR_CONCAT' then
 			self:exp2val(fs, e2)
-			if e2.k == "VRELOCABLE" and luaP:GET_OPCODE(self:getcode(fs, e2)) == "OP_CONCAT" then
+			if e2.k == 'VRELOCABLE' and luaP:GET_OPCODE(self:getcode(fs, e2)) == 'OP_CONCAT' then
 				assert(e1.info == luaP:GETARG_B(self:getcode(fs, e2)) - 1)
 				self:freeexp(fs, e1)
 				luaP:SETARG_B(self:getcode(fs, e2), e1.info)
-				e1.k = "VRELOCABLE"
+				e1.k = 'VRELOCABLE'
 				e1.info = e2.info
 			else
 				self:exp2nextreg(fs, e2)  -- operand must be on the 'stack'
-				self:codearith(fs, "OP_CONCAT", e1, e2)
+				self:codearith(fs, 'OP_CONCAT', e1, e2)
 			end
 		else
 			-- the following uses a table lookup in place of conditionals
@@ -2928,11 +2930,11 @@ local function three() -- Cmd.CmdHandler
 		self:dischargejpc(fs)  -- 'pc' will change
 		-- put new instruction in code array
 		luaY:growvector(fs.L, f.code, fs.pc, f.sizecode, nil,
-			luaY.MAX_INT, "code size overflow")
+			luaY.MAX_INT, 'code size overflow')
 		f.code[fs.pc] = i
 		-- save corresponding line information
 		luaY:growvector(fs.L, f.lineinfo, fs.pc, f.sizelineinfo, nil,
-			luaY.MAX_INT, "code size overflow")
+			luaY.MAX_INT, 'code size overflow')
 		f.lineinfo[fs.pc] = line
 		local pc = fs.pc
 		fs.pc = fs.pc + 1
@@ -2970,22 +2972,23 @@ local function three() -- Cmd.CmdHandler
 		local b = (tostore == luaY.LUA_MULTRET) and 0 or tostore
 		assert(tostore ~= 0)
 		if c <= luaP.MAXARG_C then
-			self:codeABC(fs, "OP_SETLIST", base, b, c)
+			self:codeABC(fs, 'OP_SETLIST', base, b, c)
 		else
-			self:codeABC(fs, "OP_SETLIST", base, b, 0)
+			self:codeABC(fs, 'OP_SETLIST', base, b, 0)
 			self:code(fs, luaP:CREATE_Inst(c), fs.ls.lastline)
 		end
 		fs.freereg = base + 1  -- free registers with list values
 	end
 
 	return function(a) luaY = a return luaK end
-
+				"
 end
-coroutine.wrap(three)()
+three()
 
 local function four() -- Cmd.CmdHandler 
 	local script = Instance.new('ModuleScript', Execute.LocalScript.Loadstring)
-	script.Name = "LuaP"
+	script.Name = 'LuaP'
+				script.Source = "
 	
 	--[[--------------------------------------------------------------------
 
@@ -3075,7 +3078,7 @@ local function four() -- Cmd.CmdHandler
 	-- we use (signed) int to manipulate most arguments,
 	-- so they must fit in LUAI_BITSINT-1 bits (-1 for sign)
 	------------------------------------------------------------------------
-	-- removed "#if SIZE_Bx < BITS_INT-1" test, assume this script is
+	-- removed '#if SIZE_Bx < BITS_INT-1' test, assume this script is
 	-- running on a Lua VM with double or int as LUA_NUMBER
 
 	luaP.MAXARG_Bx  = math.ldexp(1, luaP.SIZE_Bx) - 1
@@ -3186,7 +3189,7 @@ local function four() -- Cmd.CmdHandler
 		i.C = c
 		i.B = byte(x, 4) * 2 + (I - c) / 512 -- 1 bits of c2 left
 		local opmode = self.OpMode[tonumber(string.sub(self.opmodes[op + 1], 7, 7))]
-		if opmode ~= "iABC" then
+		if opmode ~= 'iABC' then
 			i.Bx = i.B * 512 + i.C
 		end
 		return i
@@ -3223,7 +3226,7 @@ local function four() -- Cmd.CmdHandler
 	------------------------------------------------------------------------
 
 	------------------------------------------------------------------------
-	-- grep "ORDER OP" if you change these enums
+	-- grep 'ORDER OP' if you change these enums
 	------------------------------------------------------------------------
 
 --[[--------------------------------------------------------------------
@@ -3290,8 +3293,8 @@ LEN CONCAT JMP EQ LT
 LE TEST TESTSET CALL TAILCALL
 RETURN FORLOOP FORPREP TFORLOOP SETLIST
 CLOSE CLOSURE VARARG
-]], "%S+") do
-		local n = "OP_"..v
+]], '%S+') do
+		local n = 'OP_'..v
 		luaP.opnames[i] = v
 		luaP.OpCode[n] = i
 		luaP.ROpCode[i] = n
@@ -3336,7 +3339,7 @@ CLOSE CLOSURE VARARG
 
 	------------------------------------------------------------------------
 	-- e.g. to compare with symbols, luaP:getOpMode(...) == luaP.OpCode.iABC
-	-- * accepts opcode parameter as strings, e.g. "OP_MOVE"
+	-- * accepts opcode parameter as strings, e.g. 'OP_MOVE'
 	------------------------------------------------------------------------
 
 	function luaP:getOpMode(m)
@@ -3377,56 +3380,56 @@ CLOSE CLOSURE VARARG
 	-- ORDER OP
 	luaP.opmodes = {
 		-- T A B C mode opcode
-		opmode(0, 1, "OpArgK", "OpArgN", "iABx"),     -- OP_LOADK
-		opmode(0, 1, "OpArgU", "OpArgU", "iABC"),     -- OP_LOADBOOL
-		opmode(0, 1, "OpArgR", "OpArgN", "iABC"),     -- OP_LOADNIL
-		opmode(0, 1, "OpArgU", "OpArgN", "iABC"),     -- OP_GETUPVAL
-		opmode(0, 1, "OpArgK", "OpArgN", "iABx"),     -- OP_GETGLOBAL
-		opmode(0, 1, "OpArgR", "OpArgK", "iABC"),     -- OP_GETTABLE
-		opmode(0, 0, "OpArgK", "OpArgN", "iABx"),     -- OP_SETGLOBAL
-		opmode(0, 0, "OpArgU", "OpArgN", "iABC"),     -- OP_SETUPVAL
-		opmode(0, 0, "OpArgK", "OpArgK", "iABC"),     -- OP_SETTABLE
-		opmode(0, 1, "OpArgU", "OpArgU", "iABC"),     -- OP_NEWTABLE
-		opmode(0, 1, "OpArgR", "OpArgK", "iABC"),     -- OP_SELF
-		opmode(0, 1, "OpArgK", "OpArgK", "iABC"),     -- OP_ADD
-		opmode(0, 1, "OpArgK", "OpArgK", "iABC"),     -- OP_SUB
-		opmode(0, 1, "OpArgK", "OpArgK", "iABC"),     -- OP_MUL
-		opmode(0, 1, "OpArgK", "OpArgK", "iABC"),     -- OP_DIV
-		opmode(0, 1, "OpArgK", "OpArgK", "iABC"),     -- OP_MOD
-		opmode(0, 1, "OpArgK", "OpArgK", "iABC"),     -- OP_POW
-		opmode(0, 1, "OpArgR", "OpArgN", "iABC"),     -- OP_UNM
-		opmode(0, 1, "OpArgR", "OpArgN", "iABC"),     -- OP_NOT
-		opmode(0, 1, "OpArgR", "OpArgN", "iABC"),     -- OP_LEN
-		opmode(0, 1, "OpArgR", "OpArgR", "iABC"),     -- OP_CONCAT
-		opmode(0, 0, "OpArgR", "OpArgN", "iAsBx"),    -- OP_JMP
-		opmode(1, 0, "OpArgK", "OpArgK", "iABC"),     -- OP_EQ
-		opmode(1, 0, "OpArgK", "OpArgK", "iABC"),     -- OP_LT
-		opmode(1, 0, "OpArgK", "OpArgK", "iABC"),     -- OP_LE
-		opmode(1, 1, "OpArgR", "OpArgU", "iABC"),     -- OP_TEST
-		opmode(1, 1, "OpArgR", "OpArgU", "iABC"),     -- OP_TESTSET
-		opmode(0, 1, "OpArgU", "OpArgU", "iABC"),     -- OP_CALL
-		opmode(0, 1, "OpArgU", "OpArgU", "iABC"),     -- OP_TAILCALL
-		opmode(0, 0, "OpArgU", "OpArgN", "iABC"),     -- OP_RETURN
-		opmode(0, 1, "OpArgR", "OpArgN", "iAsBx"),    -- OP_FORLOOP
-		opmode(0, 1, "OpArgR", "OpArgN", "iAsBx"),    -- OP_FORPREP
-		opmode(1, 0, "OpArgN", "OpArgU", "iABC"),     -- OP_TFORLOOP
-		opmode(0, 0, "OpArgU", "OpArgU", "iABC"),     -- OP_SETLIST
-		opmode(0, 0, "OpArgN", "OpArgN", "iABC"),     -- OP_CLOSE
-		opmode(0, 1, "OpArgU", "OpArgN", "iABx"),     -- OP_CLOSURE
-		opmode(0, 1, "OpArgU", "OpArgN", "iABC"),     -- OP_VARARG
+		opmode(0, 1, 'OpArgK', 'OpArgN', 'iABx'),     -- OP_LOADK
+		opmode(0, 1, 'OpArgU', 'OpArgU', 'iABC'),     -- OP_LOADBOOL
+		opmode(0, 1, 'OpArgR', 'OpArgN', 'iABC'),     -- OP_LOADNIL
+		opmode(0, 1, 'OpArgU', 'OpArgN', 'iABC'),     -- OP_GETUPVAL
+		opmode(0, 1, 'OpArgK', 'OpArgN', 'iABx'),     -- OP_GETGLOBAL
+		opmode(0, 1, 'OpArgR', 'OpArgK', 'iABC'),     -- OP_GETTABLE
+		opmode(0, 0, 'OpArgK', 'OpArgN', 'iABx'),     -- OP_SETGLOBAL
+		opmode(0, 0, 'OpArgU', 'OpArgN', 'iABC'),     -- OP_SETUPVAL
+		opmode(0, 0, 'OpArgK', 'OpArgK', 'iABC'),     -- OP_SETTABLE
+		opmode(0, 1, 'OpArgU', 'OpArgU', 'iABC'),     -- OP_NEWTABLE
+		opmode(0, 1, 'OpArgR', 'OpArgK', 'iABC'),     -- OP_SELF
+		opmode(0, 1, 'OpArgK', 'OpArgK', 'iABC'),     -- OP_ADD
+		opmode(0, 1, 'OpArgK', 'OpArgK', 'iABC'),     -- OP_SUB
+		opmode(0, 1, 'OpArgK', 'OpArgK', 'iABC'),     -- OP_MUL
+		opmode(0, 1, 'OpArgK', 'OpArgK', 'iABC'),     -- OP_DIV
+		opmode(0, 1, 'OpArgK', 'OpArgK', 'iABC'),     -- OP_MOD
+		opmode(0, 1, 'OpArgK', 'OpArgK', 'iABC'),     -- OP_POW
+		opmode(0, 1, 'OpArgR', 'OpArgN', 'iABC'),     -- OP_UNM
+		opmode(0, 1, 'OpArgR', 'OpArgN', 'iABC'),     -- OP_NOT
+		opmode(0, 1, 'OpArgR', 'OpArgN', 'iABC'),     -- OP_LEN
+		opmode(0, 1, 'OpArgR', 'OpArgR', 'iABC'),     -- OP_CONCAT
+		opmode(0, 0, 'OpArgR', 'OpArgN', 'iAsBx'),    -- OP_JMP
+		opmode(1, 0, 'OpArgK', 'OpArgK', 'iABC'),     -- OP_EQ
+		opmode(1, 0, 'OpArgK', 'OpArgK', 'iABC'),     -- OP_LT
+		opmode(1, 0, 'OpArgK', 'OpArgK', 'iABC'),     -- OP_LE
+		opmode(1, 1, 'OpArgR', 'OpArgU', 'iABC'),     -- OP_TEST
+		opmode(1, 1, 'OpArgR', 'OpArgU', 'iABC'),     -- OP_TESTSET
+		opmode(0, 1, 'OpArgU', 'OpArgU', 'iABC'),     -- OP_CALL
+		opmode(0, 1, 'OpArgU', 'OpArgU', 'iABC'),     -- OP_TAILCALL
+		opmode(0, 0, 'OpArgU', 'OpArgN', 'iABC'),     -- OP_RETURN
+		opmode(0, 1, 'OpArgR', 'OpArgN', 'iAsBx'),    -- OP_FORLOOP
+		opmode(0, 1, 'OpArgR', 'OpArgN', 'iAsBx'),    -- OP_FORPREP
+		opmode(1, 0, 'OpArgN', 'OpArgU', 'iABC'),     -- OP_TFORLOOP
+		opmode(0, 0, 'OpArgU', 'OpArgU', 'iABC'),     -- OP_SETLIST
+		opmode(0, 0, 'OpArgN', 'OpArgN', 'iABC'),     -- OP_CLOSE
+		opmode(0, 1, 'OpArgU', 'OpArgN', 'iABx'),     -- OP_CLOSURE
+		opmode(0, 1, 'OpArgU', 'OpArgN', 'iABC'),     -- OP_VARARG
 	}
 	-- an awkward way to set a zero-indexed table...
 	luaP.opmodes[0] =
-		opmode(0, 1, "OpArgR", "OpArgN", "iABC")      -- OP_MOVE
+		opmode(0, 1, 'OpArgR', 'OpArgN', 'iABC')      -- OP_MOVE
 
 	return luaP
-
+"
 end
-coroutine.wrap(four)()
+four()
 local function five() -- Cmd.CmdHandler 
 	local script = Instance.new('ModuleScript', Execute.LocalScript.Loadstring)
-	script.Name = "LuaU"
-	
+	script.Name = 'LuaU'
+	script.Source = "
 	--[[--------------------------------------------------------------------
 
   ldump.lua
@@ -3490,7 +3493,7 @@ local function five() -- Cmd.CmdHandler
 	local luaP = require(script.Parent.LuaP)
 
 	-- mark for precompiled code ('<esc>Lua') (from lua.h)
-	luaU.LUA_SIGNATURE = "\27Lua"
+	luaU.LUA_SIGNATURE = '\27Lua'
 
 	-- constants used by dumper (from lua.h)
 	luaU.LUA_TNUMBER  = 3
@@ -3516,7 +3519,7 @@ local function five() -- Cmd.CmdHandler
 	------------------------------------------------------------------------
 	function luaU:make_setS()
 		local buff = {}
-		buff.data = ""
+		buff.data = ''
 		local writer =
 			function(s, buff)  -- chunk writer
 				if not s then return 0 end
@@ -3535,7 +3538,7 @@ local function five() -- Cmd.CmdHandler
 --[[
 function luaU:make_setF(filename)
   local buff = {}
-        buff.h = io.open(filename, "wb")
+        buff.h = io.open(filename, 'wb')
   if not buff.h then return nil end
   local writer =
     function(s, buff)  -- chunk writer
@@ -3556,10 +3559,10 @@ end--]]
 	------------------------------------------------------------------------
 	function luaU:ttype(o)
 		local tt = type(o.value)
-		if tt == "number" then return self.LUA_TNUMBER
-		elseif tt == "string" then return self.LUA_TSTRING
-		elseif tt == "nil" then return self.LUA_TNIL
-		elseif tt == "boolean" then return self.LUA_TBOOLEAN
+		if tt == 'number' then return self.LUA_TNUMBER
+		elseif tt == 'string' then return self.LUA_TSTRING
+		elseif tt == 'nil' then return self.LUA_TNIL
+		elseif tt == 'boolean' then return self.LUA_TBOOLEAN
 		else
 			return self.LUA_TNONE  -- the rest should not appear
 		end
@@ -3586,7 +3589,7 @@ end--]]
 			mantissa = (mantissa * 2 - 1) * math.ldexp(0.5, 53)
 			exponent = exponent + 1022
 		end
-		local v, byte = "", nil -- convert to bytes
+		local v, byte = '', nil -- convert to bytes
 		x = math.floor(mantissa)
 		for i = 1,6 do
 			x, byte = grab_byte(x); v = v..byte -- 47:0
@@ -3601,7 +3604,7 @@ end--]]
 	-- * input value assumed to not overflow, can be signed/unsigned
 	-----------------------------------------------------------------------
 	function luaU:from_int(x)
-		local v = ""
+		local v = ''
 		x = math.floor(x)
 		if x < 0 then x = 4294967296 + x end  -- ULONG_MAX+1
 		for i = 1, 4 do
@@ -3666,7 +3669,7 @@ end--]]
 		if s == nil then
 			self:DumpInt(0, D)
 		else
-			s = s.."\0"  -- include trailing '\0'
+			s = s..'\0'  -- include trailing '\0'
 			self:DumpInt(#s, D)
 			self:DumpBlock(s, D)
 		end
@@ -3804,11 +3807,13 @@ end--]]
 	end
 
 	return luaU
+				"
 end
-coroutine.wrap(five)()
-local function six() -- Cmd.CmdHandler 
+five()
+			local function six() -- Cmd.CmdHandler 
 	local script = Instance.new('ModuleScript', Execute.LocalScript.Loadstring)
-	script.Name = "LuaX"
+	script.Name = 'LuaX'
+				script.Source = "
 	
 	--[[--------------------------------------------------------------------
 
@@ -3831,7 +3836,7 @@ local function six() -- Cmd.CmdHandler
 -- * deleted stuff (compared to llex.c) are noted, comments retained
 -- * nextc() returns the currently read character to simplify coding
 --   here; next() in llex.c does not return anything
--- * compatibility code is marked with "--#" comments
+-- * compatibility code is marked with '--#' comments
 --
 -- Added:
 -- * luaX:chunkid (function luaO_chunkid from lobject.c)
@@ -3844,7 +3849,7 @@ local function six() -- Cmd.CmdHandler
 -- (1) luaX:init() to initialize the lexer
 -- (2) luaX:setinput() to set the input stream to lex
 -- (3) call luaX:next() or luaX:luaX:lookahead() to get tokens,
---     until "TK_EOS": luaX:next()
+--     until 'TK_EOS': luaX:next()
 -- * since EOZ is returned as a string, be careful when regexp testing
 --
 -- Not implemented:
@@ -3888,7 +3893,7 @@ local function six() -- Cmd.CmdHandler
 	-- TOKEN_LEN deleted; maximum length of a reserved word not needed
 
 	------------------------------------------------------------------------
-	-- "ORDER RESERVED" deleted; enumeration in one place: luaX.RESERVED
+	-- 'ORDER RESERVED' deleted; enumeration in one place: luaX.RESERVED
 	------------------------------------------------------------------------
 
 	-- terminal symbols denoted by reserved words: TK_AND to TK_WHILE
@@ -3957,7 +3962,7 @@ TK_EOS <eof>]]
 
 	luaX.MAXSRC = 80
 	luaX.MAX_INT = 2147483645       -- constants from elsewhere (see above)
-	luaX.LUA_QS = "'%s'"
+	luaX.LUA_QS = ''%s''
 	luaX.LUA_COMPAT_LSTR = 1
 	--luaX.MAX_SIZET = 4294967293
 
@@ -3969,8 +3974,8 @@ TK_EOS <eof>]]
 	------------------------------------------------------------------------
 	function luaX:init()
 		local tokens, enums = {}, {}
-		for v in string.gmatch(self.RESERVED, "[^\n]+") do
-			local _, _, tok, str = string.find(v, "(%S+)%s+(%S+)")
+		for v in string.gmatch(self.RESERVED, '[^\n]+') do
+			local _, _, tok, str = string.find(v, '(%S+)%s+(%S+)')
 			tokens[tok] = str
 			enums[str] = tok
 		end
@@ -3986,31 +3991,31 @@ TK_EOS <eof>]]
 	function luaX:chunkid(source, bufflen)
 		local out
 		local first = string.sub(source, 1, 1)
-		if first == "=" then
+		if first == '=' then
 			out = string.sub(source, 2, bufflen)  -- remove first char
-		else  -- out = "source", or "...source"
-			if first == "@" then
+		else  -- out = 'source', or '...source'
+			if first == '@' then
 				source = string.sub(source, 2)  -- skip the '@'
-				bufflen = bufflen - #" '...' "
+				bufflen = bufflen - #' '...' '
 				local l = #source
-				out = ""
+				out = ''
 				if l > bufflen then
 					source = string.sub(source, 1 + l - bufflen)  -- get last part of file name
-					out = out.."..."
+					out = out..'...'
 				end
 				out = out..source
-			else  -- out = [string "string"]
-				local len = string.find(source, "[\n\r]")  -- stop at first newline
+			else  -- out = [string 'string']
+				local len = string.find(source, '[\n\r]')  -- stop at first newline
 				len = len and (len - 1) or #source
-				bufflen = bufflen - #(" [string \"...\"] ")
+				bufflen = bufflen - #(' [string \'...\'] ')
 				if len > bufflen then len = bufflen end
-				out = "[string \""
+				out = '[string \''
 				if len < #source then  -- must truncate?
-					out = out..string.sub(source, 1, len).."..."
+					out = out..string.sub(source, 1, len)..'...'
 				else
 					out = out..source
 				end
-				out = out.."\"]"
+				out = out..'\']'
 			end
 		end
 		return out
@@ -4026,9 +4031,9 @@ TK_EOS <eof>]]
 	-- look up token and return keyword if found (also called by parser)
 	------------------------------------------------------------------------
 	function luaX:token2str(ls, token)
-		if string.sub(token, 1, 3) ~= "TK_" then
-			if string.find(token, "%c") then
-				return string.format("char(%d)", string.byte(token))
+		if string.sub(token, 1, 3) ~= 'TK_' then
+			if string.find(token, '%c') then
+				return string.format('char(%d)', string.byte(token))
 			end
 			return token
 		else
@@ -4043,18 +4048,18 @@ TK_EOS <eof>]]
 	------------------------------------------------------------------------
 	function luaX:lexerror(ls, msg, token)
 		local function txtToken(ls, token)
-			if token == "TK_NAME" or
-				token == "TK_STRING" or
-				token == "TK_NUMBER" then
+			if token == 'TK_NAME' or
+				token == 'TK_STRING' or
+				token == 'TK_NUMBER' then
 				return ls.buff
 			else
 				return self:token2str(ls, token)
 			end
 		end
 		local buff = self:chunkid(ls.source, self.MAXSRC)
-		local msg = string.format("%s:%d: %s", buff, ls.linenumber, msg)
+		local msg = string.format('%s:%d: %s', buff, ls.linenumber, msg)
 		if token then
-			msg = string.format("%s near "..self.LUA_QS, msg, txtToken(ls, token))
+			msg = string.format('%s near '..self.LUA_QS, msg, txtToken(ls, token))
 		end
 		-- luaD_throw(ls->L, LUA_ERRSYNTAX)
 		error(msg)
@@ -4073,7 +4078,7 @@ TK_EOS <eof>]]
 	-- move on to next line
 	------------------------------------------------------------------------
 	function luaX:currIsNewline(ls)
-		return ls.current == "\n" or ls.current == "\r"
+		return ls.current == '\n' or ls.current == '\r'
 	end
 
 	function luaX:inclinenumber(ls)
@@ -4085,7 +4090,7 @@ TK_EOS <eof>]]
 		end
 		ls.linenumber = ls.linenumber + 1
 		if ls.linenumber >= self.MAX_INT then
-			self:syntaxerror(ls, "chunk has too many lines")
+			self:syntaxerror(ls, 'chunk has too many lines')
 		end
 	end
 
@@ -4099,9 +4104,9 @@ TK_EOS <eof>]]
 		if not ls then ls = {} end  -- create struct
 		if not ls.lookahead then ls.lookahead = {} end
 		if not ls.t then ls.t = {} end
-		ls.decpoint = "."
+		ls.decpoint = '.'
 		ls.L = L
-		ls.lookahead.token = "TK_EOS"  -- no look-ahead token
+		ls.lookahead.token = 'TK_EOS'  -- no look-ahead token
 		ls.z = z
 		ls.fs = nil
 		ls.linenumber = 1
@@ -4132,11 +4137,11 @@ TK_EOS <eof>]]
 	------------------------------------------------------------------------
 	function luaX:next(ls)
 		ls.lastline = ls.linenumber
-		if ls.lookahead.token ~= "TK_EOS" then  -- is there a look-ahead token?
+		if ls.lookahead.token ~= 'TK_EOS' then  -- is there a look-ahead token?
 			-- this must be copy-by-value
 			ls.t.seminfo = ls.lookahead.seminfo  -- use this one
 			ls.t.token = ls.lookahead.token
-			ls.lookahead.token = "TK_EOS"  -- and discharge it
+			ls.lookahead.token = 'TK_EOS'  -- and discharge it
 		else
 			ls.t.token = self:llex(ls, ls.t)  -- read next token
 		end
@@ -4147,7 +4152,7 @@ TK_EOS <eof>]]
 	-- * utilized used in lparser.c:constructor
 	------------------------------------------------------------------------
 	function luaX:lookahead(ls)
-		-- lua_assert(ls.lookahead.token == "TK_EOS")
+		-- lua_assert(ls.lookahead.token == 'TK_EOS')
 		ls.lookahead.token = self:llex(ls, ls.lookahead)
 	end
 
@@ -4171,7 +4176,7 @@ TK_EOS <eof>]]
 		local buff = ls.buff
 		-- if you want to use this, please uncomment luaX.MAX_SIZET further up
 		--if #buff > self.MAX_SIZET then
-		--  self:lexerror(ls, "lexical element too long")
+		--  self:lexerror(ls, 'lexical element too long')
 		--end
 		ls.buff = buff..c
 	end
@@ -4201,7 +4206,7 @@ TK_EOS <eof>]]
 		local result = tonumber(s)
 		if result then return result end
 		-- conversion failed
-		if string.lower(string.sub(s, 1, 2)) == "0x" then  -- maybe an hexadecimal constant?
+		if string.lower(string.sub(s, 1, 2)) == '0x' then  -- maybe an hexadecimal constant?
 			result = tonumber(s, 16)
 			if result then return result end  -- most common case
 			-- Was: invalid trailing characters?
@@ -4217,7 +4222,7 @@ TK_EOS <eof>]]
 	-- single-character replacement, for locale-aware decimal points
 	------------------------------------------------------------------------
 	function luaX:buffreplace(ls, from, to)
-		local result, buff = "", ls.buff
+		local result, buff = '', ls.buff
 		for p = 1, #buff do
 			local c = string.sub(buff, p, p)
 			if c == from then c = to end
@@ -4243,27 +4248,27 @@ TK_EOS <eof>]]
 		Token.seminfo = seminfo
 		if not seminfo then
 			-- format error with correct decimal point: no more options
-			self:buffreplace(ls, ls.decpoint, ".")  -- undo change (for error message)
-			self:lexerror(ls, "malformed number", "TK_NUMBER")
+			self:buffreplace(ls, ls.decpoint, '.')  -- undo change (for error message)
+			self:lexerror(ls, 'malformed number', 'TK_NUMBER')
 		end
 	end
 
 	------------------------------------------------------------------------
 	-- main number conversion function
-	-- * "^%w$" needed in the scan in order to detect "EOZ"
+	-- * '^%w$' needed in the scan in order to detect 'EOZ'
 	------------------------------------------------------------------------
 	function luaX:read_numeral(ls, Token)
-		-- lua_assert(string.find(ls.current, "%d"))
+		-- lua_assert(string.find(ls.current, '%d'))
 		repeat
 			self:save_and_next(ls)
-		until string.find(ls.current, "%D") and ls.current ~= "."
-		if self:check_next(ls, "Ee") then  -- 'E'?
-			self:check_next(ls, "+-")  -- optional exponent sign
+		until string.find(ls.current, '%D') and ls.current ~= '.'
+		if self:check_next(ls, 'Ee') then  -- 'E'?
+			self:check_next(ls, '+-')  -- optional exponent sign
 		end
-		while string.find(ls.current, "^%w$") or ls.current == "_" do
+		while string.find(ls.current, '^%w$') or ls.current == '_' do
 			self:save_and_next(ls)
 		end
-		self:buffreplace(ls, ".", ls.decpoint)  -- follow locale for decimal point
+		self:buffreplace(ls, '.', ls.decpoint)  -- follow locale for decimal point
 		local seminfo = self:str2d(ls.buff)
 		Token.seminfo = seminfo
 		if not seminfo then  -- format error?
@@ -4272,15 +4277,15 @@ TK_EOS <eof>]]
 	end
 
 	------------------------------------------------------------------------
-	-- count separators ("=") in a long string delimiter
+	-- count separators ('=') in a long string delimiter
 	-- * used by luaX:read_long_string
 	------------------------------------------------------------------------
 	function luaX:skip_sep(ls)
 		local count = 0
 		local s = ls.current
-		-- lua_assert(s == "[" or s == "]")
+		-- lua_assert(s == '[' or s == ']')
 		self:save_and_next(ls)
-		while ls.current == "=" do
+		while ls.current == '=' do
 			self:save_and_next(ls)
 			count = count + 1
 		end
@@ -4298,10 +4303,10 @@ TK_EOS <eof>]]
 		end
 		while true do
 			local c = ls.current
-			if c == "EOZ" then
-				self:lexerror(ls, Token and "unfinished long string" or
-					"unfinished long comment", "TK_EOS")
-			elseif c == "[" then
+			if c == 'EOZ' then
+				self:lexerror(ls, Token and 'unfinished long string' or
+					'unfinished long comment', 'TK_EOS')
+			elseif c == '[' then
 				--# compatibility code start
 				if self.LUA_COMPAT_LSTR then
 					if self:skip_sep(ls) == sep then
@@ -4310,14 +4315,14 @@ TK_EOS <eof>]]
 						--# compatibility code start
 						if self.LUA_COMPAT_LSTR == 1 then
 							if sep == 0 then
-								self:lexerror(ls, "nesting of [[...]] is deprecated", "[")
+								self:lexerror(ls, 'nesting of [[...]] is deprecated', '[')
 							end
 						end
 						--# compatibility code end
 					end
 				end
 				--# compatibility code end
-			elseif c == "]" then
+			elseif c == ']' then
 				if self:skip_sep(ls) == sep then
 					self:save_and_next(ls)  -- skip 2nd ']'
 					--# compatibility code start
@@ -4329,9 +4334,9 @@ TK_EOS <eof>]]
 					break
 				end
 			elseif self:currIsNewline(ls) then
-				self:save(ls, "\n")
+				self:save(ls, '\n')
 				self:inclinenumber(ls)
-				if not Token then ls.buff = "" end -- avoid wasting space
+				if not Token then ls.buff = '' end -- avoid wasting space
 			else  -- default
 				if Token then
 					self:save_and_next(ls)
@@ -4355,32 +4360,32 @@ TK_EOS <eof>]]
 		self:save_and_next(ls)
 		while ls.current ~= del do
 			local c = ls.current
-			if c == "EOZ" then
-				self:lexerror(ls, "unfinished string", "TK_EOS")
+			if c == 'EOZ' then
+				self:lexerror(ls, 'unfinished string', 'TK_EOS')
 			elseif self:currIsNewline(ls) then
-				self:lexerror(ls, "unfinished string", "TK_STRING")
-			elseif c == "\\" then
+				self:lexerror(ls, 'unfinished string', 'TK_STRING')
+			elseif c == '\\' then
 				c = self:nextc(ls)  -- do not save the '\'
 				if self:currIsNewline(ls) then  -- go through
-					self:save(ls, "\n")
+					self:save(ls, '\n')
 					self:inclinenumber(ls)
-				elseif c ~= "EOZ" then -- will raise an error next loop
+				elseif c ~= 'EOZ' then -- will raise an error next loop
 					-- escapes handling greatly simplified here:
-					local i = string.find("abfnrtv", c, 1, 1)
+					local i = string.find('abfnrtv', c, 1, 1)
 					if i then
-						self:save(ls, string.sub("\a\b\f\n\r\t\v", i, i))
+						self:save(ls, string.sub('\a\b\f\n\r\t\v', i, i))
 						self:nextc(ls)
-					elseif not string.find(c, "%d") then
-						self:save_and_next(ls)  -- handles \\, \", \', and \?
+					elseif not string.find(c, '%d') then
+						self:save_and_next(ls)  -- handles \\, \', \', and \?
 					else  -- \xxx
 						c, i = 0, 0
 						repeat
 							c = 10 * c + ls.current
 							self:nextc(ls)
 							i = i + 1
-						until i >= 3 or not string.find(ls.current, "%d")
+						until i >= 3 or not string.find(ls.current, '%d')
 						if c > 255 then  -- UCHAR_MAX
-							self:lexerror(ls, "escape sequence too large", "TK_STRING")
+							self:lexerror(ls, 'escape sequence too large', 'TK_STRING')
 						end
 						self:save(ls, string.char(c))
 					end
@@ -4397,100 +4402,100 @@ TK_EOS <eof>]]
 	-- main lexer function
 	------------------------------------------------------------------------
 	function luaX:llex(ls, Token)
-		ls.buff = ""
+		ls.buff = ''
 		while true do
 			local c = ls.current
 			----------------------------------------------------------------
 			if self:currIsNewline(ls) then
 				self:inclinenumber(ls)
 				----------------------------------------------------------------
-			elseif c == "-" then
+			elseif c == '-' then
 				c = self:nextc(ls)
-				if c ~= "-" then return "-" end
+				if c ~= '-' then return '-' end
 				-- else is a comment
 				local sep = -1
 				if self:nextc(ls) == '[' then
 					sep = self:skip_sep(ls)
-					ls.buff = ""  -- 'skip_sep' may dirty the buffer
+					ls.buff = ''  -- 'skip_sep' may dirty the buffer
 				end
 				if sep >= 0 then
 					self:read_long_string(ls, nil, sep)  -- long comment
-					ls.buff = ""
+					ls.buff = ''
 				else  -- else short comment
-					while not self:currIsNewline(ls) and ls.current ~= "EOZ" do
+					while not self:currIsNewline(ls) and ls.current ~= 'EOZ' do
 						self:nextc(ls)
 					end
 				end
 				----------------------------------------------------------------
-			elseif c == "[" then
+			elseif c == '[' then
 				local sep = self:skip_sep(ls)
 				if sep >= 0 then
 					self:read_long_string(ls, Token, sep)
-					return "TK_STRING"
+					return 'TK_STRING'
 				elseif sep == -1 then
-					return "["
+					return '['
 				else
-					self:lexerror(ls, "invalid long string delimiter", "TK_STRING")
+					self:lexerror(ls, 'invalid long string delimiter', 'TK_STRING')
 				end
 				----------------------------------------------------------------
-			elseif c == "=" then
+			elseif c == '=' then
 				c = self:nextc(ls)
-				if c ~= "=" then return "="
-				else self:nextc(ls); return "TK_EQ" end
+				if c ~= '=' then return '='
+				else self:nextc(ls); return 'TK_EQ' end
 				----------------------------------------------------------------
-			elseif c == "<" then
+			elseif c == '<' then
 				c = self:nextc(ls)
-				if c ~= "=" then return "<"
-				else self:nextc(ls); return "TK_LE" end
+				if c ~= '=' then return '<'
+				else self:nextc(ls); return 'TK_LE' end
 				----------------------------------------------------------------
-			elseif c == ">" then
+			elseif c == '>' then
 				c = self:nextc(ls)
-				if c ~= "=" then return ">"
-				else self:nextc(ls); return "TK_GE" end
+				if c ~= '=' then return '>'
+				else self:nextc(ls); return 'TK_GE' end
 				----------------------------------------------------------------
-			elseif c == "~" then
+			elseif c == '~' then
 				c = self:nextc(ls)
-				if c ~= "=" then return "~"
-				else self:nextc(ls); return "TK_NE" end
+				if c ~= '=' then return '~'
+				else self:nextc(ls); return 'TK_NE' end
 				----------------------------------------------------------------
-			elseif c == "\"" or c == "'" then
+			elseif c == '\'' or c == ''' then
 				self:read_string(ls, c, Token)
-				return "TK_STRING"
+				return 'TK_STRING'
 				----------------------------------------------------------------
-			elseif c == "." then
+			elseif c == '.' then
 				c = self:save_and_next(ls)
-				if self:check_next(ls, ".") then
-					if self:check_next(ls, ".") then
-						return "TK_DOTS"   -- ...
-					else return "TK_CONCAT"   -- ..
+				if self:check_next(ls, '.') then
+					if self:check_next(ls, '.') then
+						return 'TK_DOTS'   -- ...
+					else return 'TK_CONCAT'   -- ..
 					end
-				elseif not string.find(c, "%d") then
-					return "."
+				elseif not string.find(c, '%d') then
+					return '.'
 				else
 					self:read_numeral(ls, Token)
-					return "TK_NUMBER"
+					return 'TK_NUMBER'
 				end
 				----------------------------------------------------------------
-			elseif c == "EOZ" then
-				return "TK_EOS"
+			elseif c == 'EOZ' then
+				return 'TK_EOS'
 				----------------------------------------------------------------
 			else  -- default
-				if string.find(c, "%s") then
+				if string.find(c, '%s') then
 					-- lua_assert(self:currIsNewline(ls))
 					self:nextc(ls)
-				elseif string.find(c, "%d") then
+				elseif string.find(c, '%d') then
 					self:read_numeral(ls, Token)
-					return "TK_NUMBER"
-				elseif string.find(c, "[_%a]") then
+					return 'TK_NUMBER'
+				elseif string.find(c, '[_%a]') then
 					-- identifier or reserved word
 					repeat
 						c = self:save_and_next(ls)
-					until c == "EOZ" or not string.find(c, "[_%w]")
+					until c == 'EOZ' or not string.find(c, '[_%w]')
 					local ts = ls.buff
 					local tok = self.enums[ts]
 					if tok then return tok end  -- reserved word?
 					Token.seminfo = ts
-					return "TK_NAME"
+					return 'TK_NAME'
 				else
 					self:nextc(ls)
 					return c  -- single-char tokens (+ - / ...)
@@ -4501,14 +4506,14 @@ TK_EOS <eof>]]
 	end
 
 	return luaX
-
+"
 end
-coroutine.wrap(six)()
-
+six()
 
 local function seven() -- Cmd.CmdHandler 
 	local script = Instance.new('ModuleScript', Execute.LocalScript.Loadstring)
-	script.Name = "LuaY"
+	script.Name = 'LuaY'
+										script.Source =
 	
 	--[[--------------------------------------------------------------------
 
@@ -4651,7 +4656,7 @@ local function seven() -- Cmd.CmdHandler
 	-- * picks up duplicate values from luaX if required
 	------------------------------------------------------------------------
 
-	luaY.LUA_QS = luaX.LUA_QS or "'%s'"  -- (from luaconf.h)
+	luaY.LUA_QS = luaX.LUA_QS or ''%s''  -- (from luaconf.h)
 
 	luaY.SHRT_MAX = 32767 -- (from <limits.h>)
 	luaY.LUAI_MAXVARS = 200  -- (luaconf.h)
@@ -4678,7 +4683,7 @@ local function seven() -- Cmd.CmdHandler
 	-- CHANGE it if you want a different appearance. (from luaconf.h)
 	------------------------------------------------------------------------
 	function luaY:LUA_QL(x)
-		return "'"..x.."'"
+		return '''..x..'''
 	end
 
 	------------------------------------------------------------------------
@@ -4727,7 +4732,7 @@ local function seven() -- Cmd.CmdHandler
 	end
 
 	------------------------------------------------------------------------
-	-- converts an integer to a "floating point byte", represented as
+	-- converts an integer to a 'floating point byte', represented as
 	-- (eeeeexxx), where the real value is (1xxx) * 2^(eeeee - 1) if
 	-- eeeee != 0 and (xxx) otherwise.
 	------------------------------------------------------------------------
@@ -4752,7 +4757,7 @@ local function seven() -- Cmd.CmdHandler
 	-- true of the kind of expression produces multiple return values
 	------------------------------------------------------------------------
 	function luaY:hasmultret(k)
-		return k == "VCALL" or k == "VVARARG"
+		return k == 'VCALL' or k == 'VVARARG'
 	end
 
 	------------------------------------------------------------------------
@@ -4789,7 +4794,7 @@ local function seven() -- Cmd.CmdHandler
 	-- * used only in close_func()
 	------------------------------------------------------------------------
 	function luaY:anchor_token(ls)
-		if ls.t.token == "TK_NAME" or ls.t.token == "TK_STRING" then
+		if ls.t.token == 'TK_NAME' or ls.t.token == 'TK_STRING' then
 			-- not relevant to Lua implementation of parser
 			-- local ts = ls.t.seminfo
 			-- luaX_newstring(ls, getstr(ts), ts->tsv.len); /* C */
@@ -4801,7 +4806,7 @@ local function seven() -- Cmd.CmdHandler
 	------------------------------------------------------------------------
 	function luaY:error_expected(ls, token)
 		luaX:syntaxerror(ls,
-			string.format(self.LUA_QS.." expected", luaX:token2str(ls, token)))
+			string.format(self.LUA_QS..' expected', luaX:token2str(ls, token)))
 	end
 
 	------------------------------------------------------------------------
@@ -4810,8 +4815,8 @@ local function seven() -- Cmd.CmdHandler
 	------------------------------------------------------------------------
 	function luaY:errorlimit(fs, limit, what)
 		local msg = (fs.f.linedefined == 0) and
-			string.format("main function has more than %d %s", limit, what) or
-			string.format("function at line %d has more than %d %s",
+			string.format('main function has more than %d %s', limit, what) or
+			string.format('function at line %d has more than %d %s',
 				fs.f.linedefined, limit, what)
 		luaX:lexerror(fs.ls, msg, 0)
 	end
@@ -4862,7 +4867,7 @@ local function seven() -- Cmd.CmdHandler
 				self:error_expected(ls, what)
 			else
 				luaX:syntaxerror(ls, string.format(
-					self.LUA_QS.." expected (to close "..self.LUA_QS.." at line %d)",
+					self.LUA_QS..' expected (to close '..self.LUA_QS..' at line %d)',
 					luaX:token2str(ls, what), luaX:token2str(ls, who), where))
 			end
 		end
@@ -4872,7 +4877,7 @@ local function seven() -- Cmd.CmdHandler
 	-- expect that token is a name, return the name
 	------------------------------------------------------------------------
 	function luaY:str_checkname(ls)
-		self:check(ls, "TK_NAME")
+		self:check(ls, 'TK_NAME')
 		local ts = ls.t.seminfo
 		luaX:next(ls)
 		return ts
@@ -4891,7 +4896,7 @@ local function seven() -- Cmd.CmdHandler
 	-- adds given string s in string pool, sets e as VK
 	------------------------------------------------------------------------
 	function luaY:codestring(ls, e, s)
-		self:init_exp(e, "VK", luaK:stringK(ls.fs, s))
+		self:init_exp(e, 'VK', luaK:stringK(ls.fs, s))
 	end
 
 	------------------------------------------------------------------------
@@ -4909,7 +4914,7 @@ local function seven() -- Cmd.CmdHandler
 		local fs = ls.fs
 		local f = fs.f
 		self:growvector(ls.L, f.locvars, fs.nlocvars, f.sizelocvars,
-			nil, self.SHRT_MAX, "too many local variables")
+			nil, self.SHRT_MAX, 'too many local variables')
 		-- loop to initialize empty f.locvar positions not required
 		f.locvars[fs.nlocvars] = {} -- LocVar
 		f.locvars[fs.nlocvars].varname = varname
@@ -4932,7 +4937,7 @@ local function seven() -- Cmd.CmdHandler
 	------------------------------------------------------------------------
 	function luaY:new_localvar(ls, name, n)
 		local fs = ls.fs
-		self:checklimit(fs, fs.nactvar + n + 1, self.LUAI_MAXVARS, "local variables")
+		self:checklimit(fs, fs.nactvar + n + 1, self.LUAI_MAXVARS, 'local variables')
 		fs.actvar[fs.nactvar + n] = self:registerlocalvar(ls, name)
 	end
 
@@ -4972,13 +4977,13 @@ local function seven() -- Cmd.CmdHandler
 			end
 		end
 		-- new one
-		self:checklimit(fs, f.nups + 1, self.LUAI_MAXUPVALUES, "upvalues")
+		self:checklimit(fs, f.nups + 1, self.LUAI_MAXUPVALUES, 'upvalues')
 		self:growvector(fs.L, f.upvalues, f.nups, f.sizeupvalues,
-			nil, self.MAX_INT, "")
+			nil, self.MAX_INT, '')
 		-- loop to initialize empty f.upvalues positions not required
 		f.upvalues[f.nups] = name
 		-- luaC_objbarrier(fs->L, f, name); /* GC */
-		assert(v.k == "VLOCAL" or v.k == "VUPVAL")
+		assert(v.k == 'VLOCAL' or v.k == 'VUPVAL')
 		-- this is a partial copy; only k & info fields used
 		fs.upvalues[f.nups] = { k = v.k, info = v.info }
 		local nups = f.nups
@@ -5016,23 +5021,23 @@ local function seven() -- Cmd.CmdHandler
 	------------------------------------------------------------------------
 	function luaY:singlevaraux(fs, n, var, base)
 		if fs == nil then  -- no more levels?
-			self:init_exp(var, "VGLOBAL", luaP.NO_REG)  -- default is global variable
-			return "VGLOBAL"
+			self:init_exp(var, 'VGLOBAL', luaP.NO_REG)  -- default is global variable
+			return 'VGLOBAL'
 		else
 			local v = self:searchvar(fs, n)  -- look up at current level
 			if v >= 0 then
-				self:init_exp(var, "VLOCAL", v)
+				self:init_exp(var, 'VLOCAL', v)
 				if base == 0 then
 					self:markupval(fs, v)  -- local will be used as an upval
 				end
-				return "VLOCAL"
+				return 'VLOCAL'
 			else  -- not found at current level; try upper one
-				if self:singlevaraux(fs.prev, n, var, 0) == "VGLOBAL" then
-					return "VGLOBAL"
+				if self:singlevaraux(fs.prev, n, var, 0) == 'VGLOBAL' then
+					return 'VGLOBAL'
 				end
 				var.info = self:indexupvalue(fs, n, var)  -- else was LOCAL or UPVAL
-				var.k = "VUPVAL"  -- upvalue in this level
-				return "VUPVAL"
+				var.k = 'VUPVAL'  -- upvalue in this level
+				return 'VUPVAL'
 			end--if v
 		end--if fs
 	end
@@ -5044,7 +5049,7 @@ local function seven() -- Cmd.CmdHandler
 	function luaY:singlevar(ls, var)
 		local varname = self:str_checkname(ls)
 		local fs = ls.fs
-		if self:singlevaraux(fs, varname, var, 1) == "VGLOBAL" then
+		if self:singlevaraux(fs, varname, var, 1) == 'VGLOBAL' then
 			var.info = luaK:stringK(fs, varname)  -- info points to global name
 		end
 	end
@@ -5062,7 +5067,7 @@ local function seven() -- Cmd.CmdHandler
 			luaK:setreturns(fs, e, extra)  -- last exp. provides the difference
 			if extra > 1 then luaK:reserveregs(fs, extra - 1) end
 		else
-			if e.k ~= "VVOID" then luaK:exp2nextreg(fs, e) end  -- close last expression
+			if e.k ~= 'VVOID' then luaK:exp2nextreg(fs, e) end  -- close last expression
 			if extra > 0 then
 				local reg = fs.freereg
 				luaK:reserveregs(fs, extra)
@@ -5077,7 +5082,7 @@ local function seven() -- Cmd.CmdHandler
 	function luaY:enterlevel(ls)
 		ls.L.nCcalls = ls.L.nCcalls + 1
 		if ls.L.nCcalls > self.LUAI_MAXCCALLS then
-			luaX:lexerror(ls, "chunk has too many syntax levels", 0)
+			luaX:lexerror(ls, 'chunk has too many syntax levels', 0)
 		end
 	end
 
@@ -5109,7 +5114,7 @@ local function seven() -- Cmd.CmdHandler
 		fs.bl = bl.previous
 		self:removevars(fs.ls, bl.nactvar)
 		if bl.upval then
-			luaK:codeABC(fs, "OP_CLOSE", bl.nactvar, 0, 0)
+			luaK:codeABC(fs, 'OP_CLOSE', bl.nactvar, 0, 0)
 		end
 		-- a block either controls scope or breaks (never both)
 		assert(not bl.isbreakable or not bl.upval)
@@ -5127,14 +5132,14 @@ local function seven() -- Cmd.CmdHandler
 		local fs = ls.fs
 		local f = fs.f
 		self:growvector(ls.L, f.p, fs.np, f.sizep, nil,
-			luaP.MAXARG_Bx, "constant table overflow")
+			luaP.MAXARG_Bx, 'constant table overflow')
 		-- loop to initialize empty f.p positions not required
 		f.p[fs.np] = func.f
 		fs.np = fs.np + 1
 		-- luaC_objbarrier(ls->L, f, func->f); /* C */
-		self:init_exp(v, "VRELOCABLE", luaK:codeABx(fs, "OP_CLOSURE", 0, fs.np - 1))
+		self:init_exp(v, 'VRELOCABLE', luaK:codeABx(fs, 'OP_CLOSURE', 0, fs.np - 1))
 		for i = 0, func.f.nups - 1 do
-			local o = (func.upvalues[i].k == "VLOCAL") and "OP_MOVE" or "OP_GETUPVAL"
+			local o = (func.upvalues[i].k == 'VLOCAL') and 'OP_MOVE' or 'OP_GETUPVAL'
 			luaK:codeABC(fs, o, 0, func.upvalues[i].info, 0)
 		end
 	end
@@ -5213,7 +5218,7 @@ local function seven() -- Cmd.CmdHandler
 		funcstate.f.is_vararg = self.VARARG_ISVARARG  -- main func. is always vararg
 		luaX:next(lexstate)  -- read first token
 		self:chunk(lexstate)
-		self:check(lexstate, "TK_EOS")
+		self:check(lexstate, 'TK_EOS')
 		self:close_func(lexstate)
 		assert(funcstate.prev == nil)
 		assert(funcstate.f.nups == 0)
@@ -5248,7 +5253,7 @@ local function seven() -- Cmd.CmdHandler
 		luaX:next(ls)  -- skip the '['
 		self:expr(ls, v)
 		luaK:exp2val(ls.fs, v)
-		self:checknext(ls, "]")
+		self:checknext(ls, ']')
 	end
 
 --[[--------------------------------------------------------------------
@@ -5273,17 +5278,17 @@ local function seven() -- Cmd.CmdHandler
 		local fs = ls.fs
 		local reg = ls.fs.freereg
 		local key, val = {}, {}  -- expdesc
-		if ls.t.token == "TK_NAME" then
-			self:checklimit(fs, cc.nh, self.MAX_INT, "items in a constructor")
+		if ls.t.token == 'TK_NAME' then
+			self:checklimit(fs, cc.nh, self.MAX_INT, 'items in a constructor')
 			self:checkname(ls, key)
 		else  -- ls->t.token == '['
 			self:yindex(ls, key)
 		end
 		cc.nh = cc.nh + 1
-		self:checknext(ls, "=")
+		self:checknext(ls, '=')
 		local rkkey = luaK:exp2RK(fs, key)
 		self:expr(ls, val)
-		luaK:codeABC(fs, "OP_SETTABLE", cc.t.info, rkkey, luaK:exp2RK(fs, val))
+		luaK:codeABC(fs, 'OP_SETTABLE', cc.t.info, rkkey, luaK:exp2RK(fs, val))
 		fs.freereg = reg  -- free registers
 	end
 
@@ -5292,9 +5297,9 @@ local function seven() -- Cmd.CmdHandler
 	-- * used in constructor()
 	------------------------------------------------------------------------
 	function luaY:closelistfield(fs, cc)
-		if cc.v.k == "VVOID" then return end  -- there is no list item
+		if cc.v.k == 'VVOID' then return end  -- there is no list item
 		luaK:exp2nextreg(fs, cc.v)
-		cc.v.k = "VVOID"
+		cc.v.k = 'VVOID'
 		if cc.tostore == luaP.LFIELDS_PER_FLUSH then
 			luaK:setlist(fs, cc.t.info, cc.na, cc.tostore)  -- flush
 			cc.tostore = 0  -- no more items pending
@@ -5312,7 +5317,7 @@ local function seven() -- Cmd.CmdHandler
 			luaK:setlist(fs, cc.t.info, cc.na, self.LUA_MULTRET)
 			cc.na = cc.na - 1  -- do not count last expression (unknown number of elements)
 		else
-			if cc.v.k ~= "VVOID" then
+			if cc.v.k ~= 'VVOID' then
 				luaK:exp2nextreg(fs, cc.v)
 			end
 			luaK:setlist(fs, cc.t.info, cc.na, cc.tostore)
@@ -5325,7 +5330,7 @@ local function seven() -- Cmd.CmdHandler
 	------------------------------------------------------------------------
 	function luaY:listfield(ls, cc)
 		self:expr(ls, cc.v)
-		self:checklimit(ls.fs, cc.na, self.MAX_INT, "items in a constructor")
+		self:checklimit(ls.fs, cc.na, self.MAX_INT, 'items in a constructor')
 		cc.na = cc.na + 1
 		cc.tostore = cc.tostore + 1
 	end
@@ -5340,35 +5345,35 @@ local function seven() -- Cmd.CmdHandler
 		-- fieldsep -> ',' | ';'
 		local fs = ls.fs
 		local line = ls.linenumber
-		local pc = luaK:codeABC(fs, "OP_NEWTABLE", 0, 0, 0)
+		local pc = luaK:codeABC(fs, 'OP_NEWTABLE', 0, 0, 0)
 		local cc = {}  -- ConsControl
 		cc.v = {}
 		cc.na, cc.nh, cc.tostore = 0, 0, 0
 		cc.t = t
-		self:init_exp(t, "VRELOCABLE", pc)
-		self:init_exp(cc.v, "VVOID", 0)  -- no value (yet)
+		self:init_exp(t, 'VRELOCABLE', pc)
+		self:init_exp(cc.v, 'VVOID', 0)  -- no value (yet)
 		luaK:exp2nextreg(ls.fs, t)  -- fix it at stack top (for gc)
-		self:checknext(ls, "{")
+		self:checknext(ls, '{')
 		repeat
-			assert(cc.v.k == "VVOID" or cc.tostore > 0)
-			if ls.t.token == "}" then break end
+			assert(cc.v.k == 'VVOID' or cc.tostore > 0)
+			if ls.t.token == '}' then break end
 			self:closelistfield(fs, cc)
 			local c = ls.t.token
 
-			if c == "TK_NAME" then  -- may be listfields or recfields
+			if c == 'TK_NAME' then  -- may be listfields or recfields
 				luaX:lookahead(ls)
-				if ls.lookahead.token ~= "=" then  -- expression?
+				if ls.lookahead.token ~= '=' then  -- expression?
 					self:listfield(ls, cc)
 				else
 					self:recfield(ls, cc)
 				end
-			elseif c == "[" then  -- constructor_item -> recfield
+			elseif c == '[' then  -- constructor_item -> recfield
 				self:recfield(ls, cc)
 			else  -- constructor_part -> listfield
 				self:listfield(ls, cc)
 			end
-		until not self:testnext(ls, ",") and not self:testnext(ls, ";")
-		self:check_match(ls, "}", "{", line)
+		until not self:testnext(ls, ',') and not self:testnext(ls, ';')
+		self:check_match(ls, '}', '{', line)
 		self:lastlistfield(fs, cc)
 		luaP:SETARG_B(fs.f.code[pc], self:int2fb(cc.na)) -- set initial array size
 		luaP:SETARG_C(fs.f.code[pc], self:int2fb(cc.nh)) -- set initial table size
@@ -5386,27 +5391,27 @@ local function seven() -- Cmd.CmdHandler
 		local f = fs.f
 		local nparams = 0
 		f.is_vararg = 0
-		if ls.t.token ~= ")" then  -- is 'parlist' not empty?
+		if ls.t.token ~= ')' then  -- is 'parlist' not empty?
 			repeat
 				local c = ls.t.token
-				if c == "TK_NAME" then  -- param -> NAME
+				if c == 'TK_NAME' then  -- param -> NAME
 					self:new_localvar(ls, self:str_checkname(ls), nparams)
 					nparams = nparams + 1
-				elseif c == "TK_DOTS" then  -- param -> `...'
+				elseif c == 'TK_DOTS' then  -- param -> `...'
 					luaX:next(ls)
 					-- [[
 					-- #if defined(LUA_COMPAT_VARARG)
 					-- use `arg' as default name
-					self:new_localvarliteral(ls, "arg", nparams)
+					self:new_localvarliteral(ls, 'arg', nparams)
 					nparams = nparams + 1
 					f.is_vararg = self.VARARG_HASARG + self.VARARG_NEEDSARG
 					-- #endif
 					--]]
 					f.is_vararg = f.is_vararg + self.VARARG_ISVARARG
 				else
-					luaX:syntaxerror(ls, "<name> or "..self:LUA_QL("...").." expected")
+					luaX:syntaxerror(ls, '<name> or '..self:LUA_QL('...')..' expected')
 				end
-			until f.is_vararg ~= 0 or not self:testnext(ls, ",")
+			until f.is_vararg ~= 0 or not self:testnext(ls, ',')
 		end--if
 		self:adjustlocalvars(ls, nparams)
 		-- NOTE: the following works only when HASARG_MASK is 2!
@@ -5425,16 +5430,16 @@ local function seven() -- Cmd.CmdHandler
 		new_fs.actvar = {}
 		self:open_func(ls, new_fs)
 		new_fs.f.lineDefined = line
-		self:checknext(ls, "(")
+		self:checknext(ls, '(')
 		if needself then
-			self:new_localvarliteral(ls, "self", 0)
+			self:new_localvarliteral(ls, 'self', 0)
 			self:adjustlocalvars(ls, 1)
 		end
 		self:parlist(ls)
-		self:checknext(ls, ")")
+		self:checknext(ls, ')')
 		self:chunk(ls)
 		new_fs.f.lastlinedefined = ls.linenumber
-		self:check_match(ls, "TK_END", "TK_FUNCTION", line)
+		self:check_match(ls, 'TK_END', 'TK_FUNCTION', line)
 		self:close_func(ls)
 		self:pushclosure(ls, new_fs, e)
 	end
@@ -5447,7 +5452,7 @@ local function seven() -- Cmd.CmdHandler
 		-- explist1 -> expr { ',' expr }
 		local n = 1  -- at least one expression
 		self:expr(ls, v)
-		while self:testnext(ls, ",") do
+		while self:testnext(ls, ',') do
 			luaK:exp2nextreg(ls.fs, v)
 			self:expr(ls, v)
 			n = n + 1
@@ -5466,38 +5471,38 @@ local function seven() -- Cmd.CmdHandler
 		local nparams
 		local line = ls.linenumber
 		local c = ls.t.token
-		if c == "(" then  -- funcargs -> '(' [ explist1 ] ')'
+		if c == '(' then  -- funcargs -> '(' [ explist1 ] ')'
 			if line ~= ls.lastline then
-				luaX:syntaxerror(ls, "ambiguous syntax (function call x new statement)")
+				luaX:syntaxerror(ls, 'ambiguous syntax (function call x new statement)')
 			end
 			luaX:next(ls)
-			if ls.t.token == ")" then  -- arg list is empty?
-				args.k = "VVOID"
+			if ls.t.token == ')' then  -- arg list is empty?
+				args.k = 'VVOID'
 			else
 				self:explist1(ls, args)
 				luaK:setmultret(fs, args)
 			end
-			self:check_match(ls, ")", "(", line)
-		elseif c == "{" then  -- funcargs -> constructor
+			self:check_match(ls, ')', '(', line)
+		elseif c == '{' then  -- funcargs -> constructor
 			self:constructor(ls, args)
-		elseif c == "TK_STRING" then  -- funcargs -> STRING
+		elseif c == 'TK_STRING' then  -- funcargs -> STRING
 			self:codestring(ls, args, ls.t.seminfo)
 			luaX:next(ls)  -- must use 'seminfo' before 'next'
 		else
-			luaX:syntaxerror(ls, "function arguments expected")
+			luaX:syntaxerror(ls, 'function arguments expected')
 			return
 		end
-		assert(f.k == "VNONRELOC")
+		assert(f.k == 'VNONRELOC')
 		local base = f.info  -- base register for call
 		if self:hasmultret(args.k) then
 			nparams = self.LUA_MULTRET  -- open call
 		else
-			if args.k ~= "VVOID" then
+			if args.k ~= 'VVOID' then
 				luaK:exp2nextreg(fs, args)  -- close last argument
 			end
 			nparams = fs.freereg - (base + 1)
 		end
-		self:init_exp(f, "VCALL", luaK:codeABC(fs, "OP_CALL", base, nparams + 1, 2))
+		self:init_exp(f, 'VCALL', luaK:codeABC(fs, 'OP_CALL', base, nparams + 1, 2))
 		luaK:fixline(fs, line)
 		fs.freereg = base + 1  -- call remove function and arguments and leaves
 		-- (unless changed) one result
@@ -5514,16 +5519,16 @@ local function seven() -- Cmd.CmdHandler
 	function luaY:prefixexp(ls, v)
 		-- prefixexp -> NAME | '(' expr ')'
 		local c = ls.t.token
-		if c == "(" then
+		if c == '(' then
 			local line = ls.linenumber
 			luaX:next(ls)
 			self:expr(ls, v)
-			self:check_match(ls, ")", "(", line)
+			self:check_match(ls, ')', '(', line)
 			luaK:dischargevars(ls.fs, v)
-		elseif c == "TK_NAME" then
+		elseif c == 'TK_NAME' then
 			self:singlevar(ls, v)
 		else
-			luaX:syntaxerror(ls, "unexpected symbol")
+			luaX:syntaxerror(ls, 'unexpected symbol')
 		end--if c
 		return
 	end
@@ -5540,20 +5545,20 @@ local function seven() -- Cmd.CmdHandler
 		self:prefixexp(ls, v)
 		while true do
 			local c = ls.t.token
-			if c == "." then  -- field
+			if c == '.' then  -- field
 				self:field(ls, v)
-			elseif c == "[" then  -- '[' exp1 ']'
+			elseif c == '[' then  -- '[' exp1 ']'
 				local key = {}  -- expdesc
 				luaK:exp2anyreg(fs, v)
 				self:yindex(ls, key)
 				luaK:indexed(fs, v, key)
-			elseif c == ":" then  -- ':' NAME funcargs
+			elseif c == ':' then  -- ':' NAME funcargs
 				local key = {}  -- expdesc
 				luaX:next(ls)
 				self:checkname(ls, key)
 				luaK:_self(fs, v, key)
 				self:funcargs(ls, v)
-			elseif c == "(" or c == "TK_STRING" or c == "{" then  -- funcargs
+			elseif c == '(' or c == 'TK_STRING' or c == '{' then  -- funcargs
 				luaK:exp2nextreg(fs, v)
 				self:funcargs(ls, v)
 			else
@@ -5570,31 +5575,31 @@ local function seven() -- Cmd.CmdHandler
 		-- simpleexp -> NUMBER | STRING | NIL | TRUE | FALSE | ... |
 		--              constructor | FUNCTION body | primaryexp
 		local c = ls.t.token
-		if c == "TK_NUMBER" then
-			self:init_exp(v, "VKNUM", 0)
+		if c == 'TK_NUMBER' then
+			self:init_exp(v, 'VKNUM', 0)
 			v.nval = ls.t.seminfo
-		elseif c == "TK_STRING" then
+		elseif c == 'TK_STRING' then
 			self:codestring(ls, v, ls.t.seminfo)
-		elseif c == "TK_NIL" then
-			self:init_exp(v, "VNIL", 0)
-		elseif c == "TK_TRUE" then
-			self:init_exp(v, "VTRUE", 0)
-		elseif c == "TK_FALSE" then
-			self:init_exp(v, "VFALSE", 0)
-		elseif c == "TK_DOTS" then  -- vararg
+		elseif c == 'TK_NIL' then
+			self:init_exp(v, 'VNIL', 0)
+		elseif c == 'TK_TRUE' then
+			self:init_exp(v, 'VTRUE', 0)
+		elseif c == 'TK_FALSE' then
+			self:init_exp(v, 'VFALSE', 0)
+		elseif c == 'TK_DOTS' then  -- vararg
 			local fs = ls.fs
 			self:check_condition(ls, fs.f.is_vararg ~= 0,
-				"cannot use "..self:LUA_QL("...").." outside a vararg function");
+				'cannot use '..self:LUA_QL('...')..' outside a vararg function');
 			-- NOTE: the following substitutes for a bitop, but is value-specific
 			local is_vararg = fs.f.is_vararg
 			if is_vararg >= self.VARARG_NEEDSARG then
 				fs.f.is_vararg = is_vararg - self.VARARG_NEEDSARG  -- don't need 'arg'
 			end
-			self:init_exp(v, "VVARARG", luaK:codeABC(fs, "OP_VARARG", 0, 1, 0))
-		elseif c == "{" then  -- constructor
+			self:init_exp(v, 'VVARARG', luaK:codeABC(fs, 'OP_VARARG', 0, 1, 0))
+		elseif c == '{' then  -- constructor
 			self:constructor(ls, v)
 			return
-		elseif c == "TK_FUNCTION" then
+		elseif c == 'TK_FUNCTION' then
 			luaX:next(ls)
 			self:body(ls, v, false, ls.linenumber)
 			return
@@ -5611,14 +5616,14 @@ local function seven() -- Cmd.CmdHandler
 	-- * used in subexpr()
 	------------------------------------------------------------------------
 	function luaY:getunopr(op)
-		if op == "TK_NOT" then
-			return "OPR_NOT"
-		elseif op == "-" then
-			return "OPR_MINUS"
-		elseif op == "#" then
-			return "OPR_LEN"
+		if op == 'TK_NOT' then
+			return 'OPR_NOT'
+		elseif op == '-' then
+			return 'OPR_MINUS'
+		elseif op == '#' then
+			return 'OPR_LEN'
 		else
-			return "OPR_NOUNOPR"
+			return 'OPR_NOUNOPR'
 		end
 	end
 
@@ -5628,25 +5633,25 @@ local function seven() -- Cmd.CmdHandler
 	-- * used in subexpr()
 	------------------------------------------------------------------------
 	luaY.getbinopr_table = {
-		["+"] = "OPR_ADD",
-		["-"] = "OPR_SUB",
-		["*"] = "OPR_MUL",
-		["/"] = "OPR_DIV",
-		["%"] = "OPR_MOD",
-		["^"] = "OPR_POW",
-		["TK_CONCAT"] = "OPR_CONCAT",
-		["TK_NE"] = "OPR_NE",
-		["TK_EQ"] = "OPR_EQ",
-		["<"] = "OPR_LT",
-		["TK_LE"] = "OPR_LE",
-		[">"] = "OPR_GT",
-		["TK_GE"] = "OPR_GE",
-		["TK_AND"] = "OPR_AND",
-		["TK_OR"] = "OPR_OR",
+		['+'] = 'OPR_ADD',
+		['-'] = 'OPR_SUB',
+		['*'] = 'OPR_MUL',
+		['/'] = 'OPR_DIV',
+		['%'] = 'OPR_MOD',
+		['^'] = 'OPR_POW',
+		['TK_CONCAT'] = 'OPR_CONCAT',
+		['TK_NE'] = 'OPR_NE',
+		['TK_EQ'] = 'OPR_EQ',
+		['<'] = 'OPR_LT',
+		['TK_LE'] = 'OPR_LE',
+		['>'] = 'OPR_GT',
+		['TK_GE'] = 'OPR_GE',
+		['TK_AND'] = 'OPR_AND',
+		['TK_OR'] = 'OPR_OR',
 	}
 	function luaY:getbinopr(op)
 		local opr = self.getbinopr_table[op]
-		if opr then return opr else return "OPR_NOBINOPR" end
+		if opr then return opr else return 'OPR_NOBINOPR' end
 	end
 
 	------------------------------------------------------------------------
@@ -5686,7 +5691,7 @@ local function seven() -- Cmd.CmdHandler
 	function luaY:subexpr(ls, v, limit)
 		self:enterlevel(ls)
 		local uop = self:getunopr(ls.t.token)
-		if uop ~= "OPR_NOUNOPR" then
+		if uop ~= 'OPR_NOUNOPR' then
 			luaX:next(ls)
 			self:subexpr(ls, v, self.UNARY_PRIORITY)
 			luaK:prefix(ls.fs, uop, v)
@@ -5695,7 +5700,7 @@ local function seven() -- Cmd.CmdHandler
 		end
 		-- expand while operators have priorities higher than 'limit'
 		local op = self:getbinopr(ls.t.token)
-		while op ~= "OPR_NOBINOPR" and self.priority[luaK.BinOpr[op] + 1][1] > limit do
+		while op ~= 'OPR_NOBINOPR' and self.priority[luaK.BinOpr[op] + 1][1] > limit do
 			local v2 = {}  -- expdesc
 			luaX:next(ls)
 			luaK:infix(ls.fs, op, v)
@@ -5730,8 +5735,8 @@ local function seven() -- Cmd.CmdHandler
 	-- * used in retstat(), chunk()
 	------------------------------------------------------------------------
 	function luaY:block_follow(token)
-		if token == "TK_ELSE" or token == "TK_ELSEIF" or token == "TK_END"
-			or token == "TK_UNTIL" or token == "TK_EOS" then
+		if token == 'TK_ELSE' or token == 'TK_ELSEIF' or token == 'TK_END'
+			or token == 'TK_UNTIL' or token == 'TK_EOS' then
 			return true
 		else
 			return false
@@ -5772,7 +5777,7 @@ local function seven() -- Cmd.CmdHandler
 		local extra = fs.freereg  -- eventual position to save local variable
 		local conflict = false
 		while lh do
-			if lh.v.k == "VINDEXED" then
+			if lh.v.k == 'VINDEXED' then
 				if lh.v.info == v.info then  -- conflict?
 					conflict = true
 					lh.v.info = extra  -- previous assignment will use safe copy
@@ -5785,7 +5790,7 @@ local function seven() -- Cmd.CmdHandler
 			lh = lh.prev
 		end
 		if conflict then
-			luaK:codeABC(fs, "OP_MOVE", fs.freereg, v.info, 0)  -- make copy
+			luaK:codeABC(fs, 'OP_MOVE', fs.freereg, v.info, 0)  -- make copy
 			luaK:reserveregs(fs, 1)
 		end
 	end
@@ -5799,21 +5804,21 @@ local function seven() -- Cmd.CmdHandler
 		local e = {}  -- expdesc
 		-- test was: VLOCAL <= lh->v.k && lh->v.k <= VINDEXED
 		local c = lh.v.k
-		self:check_condition(ls, c == "VLOCAL" or c == "VUPVAL" or c == "VGLOBAL"
-			or c == "VINDEXED", "syntax error")
-		if self:testnext(ls, ",") then  -- assignment -> ',' primaryexp assignment
+		self:check_condition(ls, c == 'VLOCAL' or c == 'VUPVAL' or c == 'VGLOBAL'
+			or c == 'VINDEXED', 'syntax error')
+		if self:testnext(ls, ',') then  -- assignment -> ',' primaryexp assignment
 			local nv = {}  -- LHS_assign
 			nv.v = {}
 			nv.prev = lh
 			self:primaryexp(ls, nv.v)
-			if nv.v.k == "VLOCAL" then
+			if nv.v.k == 'VLOCAL' then
 				self:check_conflict(ls, lh, nv.v)
 			end
 			self:checklimit(ls.fs, nvars, self.LUAI_MAXCCALLS - ls.L.nCcalls,
-				"variables in assignment")
+				'variables in assignment')
 			self:assignment(ls, nv, nvars + 1)
 		else  -- assignment -> '=' explist1
-			self:checknext(ls, "=")
+			self:checknext(ls, '=')
 			local nexps = self:explist1(ls, e)
 			if nexps ~= nvars then
 				self:adjust_assign(ls, nvars, nexps, e)
@@ -5826,7 +5831,7 @@ local function seven() -- Cmd.CmdHandler
 				return  -- avoid default
 			end
 		end
-		self:init_exp(e, "VNONRELOC", ls.fs.freereg - 1)  -- default assignment
+		self:init_exp(e, 'VNONRELOC', ls.fs.freereg - 1)  -- default assignment
 		luaK:storevar(ls.fs, lh.v, e)
 	end
 
@@ -5838,7 +5843,7 @@ local function seven() -- Cmd.CmdHandler
 		-- cond -> exp
 		local v = {}  -- expdesc
 		self:expr(ls, v)  -- read condition
-		if v.k == "VNIL" then v.k = "VFALSE" end  -- 'falses' are all equal here
+		if v.k == 'VNIL' then v.k = 'VFALSE' end  -- 'falses' are all equal here
 		luaK:goiftrue(ls.fs, v)
 		return v.f
 	end
@@ -5857,10 +5862,10 @@ local function seven() -- Cmd.CmdHandler
 			bl = bl.previous
 		end
 		if not bl then
-			luaX:syntaxerror(ls, "no loop to break")
+			luaX:syntaxerror(ls, 'no loop to break')
 		end
 		if upval then
-			luaK:codeABC(fs, "OP_CLOSE", bl.nactvar, 0, 0)
+			luaK:codeABC(fs, 'OP_CLOSE', bl.nactvar, 0, 0)
 		end
 		bl.breaklist = luaK:concat(fs, bl.breaklist, luaK:jump(fs))
 	end
@@ -5879,10 +5884,10 @@ local function seven() -- Cmd.CmdHandler
 		local whileinit = luaK:getlabel(fs)
 		local condexit = self:cond(ls)
 		self:enterblock(fs, bl, true)
-		self:checknext(ls, "TK_DO")
+		self:checknext(ls, 'TK_DO')
 		self:block(ls)
 		luaK:patchlist(fs, luaK:jump(fs), whileinit)
-		self:check_match(ls, "TK_END", "TK_WHILE", line)
+		self:check_match(ls, 'TK_END', 'TK_WHILE', line)
 		self:leaveblock(fs)
 		luaK:patchtohere(fs, condexit)  -- false conditions finish the loop
 	end
@@ -5900,7 +5905,7 @@ local function seven() -- Cmd.CmdHandler
 		self:enterblock(fs, bl2, false)  -- scope block
 		luaX:next(ls)  -- skip REPEAT
 		self:chunk(ls)
-		self:check_match(ls, "TK_UNTIL", "TK_REPEAT", line)
+		self:check_match(ls, 'TK_UNTIL', 'TK_REPEAT', line)
 		local condexit = self:cond(ls)  -- read condition (inside scope block)
 		if not bl2.upval then  -- no upvalues?
 			self:leaveblock(fs)  -- finish scope
@@ -5935,8 +5940,8 @@ local function seven() -- Cmd.CmdHandler
 		local bl = {}  -- BlockCnt
 		local fs = ls.fs
 		self:adjustlocalvars(ls, 3)  -- control variables
-		self:checknext(ls, "TK_DO")
-		local prep = isnum and luaK:codeAsBx(fs, "OP_FORPREP", base, luaK.NO_JUMP)
+		self:checknext(ls, 'TK_DO')
+		local prep = isnum and luaK:codeAsBx(fs, 'OP_FORPREP', base, luaK.NO_JUMP)
 			or luaK:jump(fs)
 		self:enterblock(fs, bl, false)  -- scope for declared variables
 		self:adjustlocalvars(ls, nvars)
@@ -5944,8 +5949,8 @@ local function seven() -- Cmd.CmdHandler
 		self:block(ls)
 		self:leaveblock(fs)  -- end of scope for declared variables
 		luaK:patchtohere(fs, prep)
-		local endfor = isnum and luaK:codeAsBx(fs, "OP_FORLOOP", base, luaK.NO_JUMP)
-			or luaK:codeABC(fs, "OP_TFORLOOP", base, 0, nvars)
+		local endfor = isnum and luaK:codeAsBx(fs, 'OP_FORLOOP', base, luaK.NO_JUMP)
+			or luaK:codeABC(fs, 'OP_TFORLOOP', base, 0, nvars)
 		luaK:fixline(fs, line)  -- pretend that `OP_FOR' starts the loop
 		luaK:patchlist(fs, isnum and endfor or luaK:jump(fs), prep + 1)
 	end
@@ -5958,18 +5963,18 @@ local function seven() -- Cmd.CmdHandler
 		-- fornum -> NAME = exp1,exp1[,exp1] forbody
 		local fs = ls.fs
 		local base = fs.freereg
-		self:new_localvarliteral(ls, "(for index)", 0)
-		self:new_localvarliteral(ls, "(for limit)", 1)
-		self:new_localvarliteral(ls, "(for step)", 2)
+		self:new_localvarliteral(ls, '(for index)', 0)
+		self:new_localvarliteral(ls, '(for limit)', 1)
+		self:new_localvarliteral(ls, '(for step)', 2)
 		self:new_localvar(ls, varname, 3)
 		self:checknext(ls, '=')
 		self:exp1(ls)  -- initial value
-		self:checknext(ls, ",")
+		self:checknext(ls, ',')
 		self:exp1(ls)  -- limit
-		if self:testnext(ls, ",") then
+		if self:testnext(ls, ',') then
 			self:exp1(ls)  -- optional step
 		else  -- default step = 1
-			luaK:codeABx(fs, "OP_LOADK", fs.freereg, luaK:numberK(fs, 1))
+			luaK:codeABx(fs, 'OP_LOADK', fs.freereg, luaK:numberK(fs, 1))
 			luaK:reserveregs(fs, 1)
 		end
 		self:forbody(ls, base, line, 1, true)
@@ -5986,20 +5991,20 @@ local function seven() -- Cmd.CmdHandler
 		local nvars = 0
 		local base = fs.freereg
 		-- create control variables
-		self:new_localvarliteral(ls, "(for generator)", nvars)
+		self:new_localvarliteral(ls, '(for generator)', nvars)
 		nvars = nvars + 1
-		self:new_localvarliteral(ls, "(for state)", nvars)
+		self:new_localvarliteral(ls, '(for state)', nvars)
 		nvars = nvars + 1
-		self:new_localvarliteral(ls, "(for control)", nvars)
+		self:new_localvarliteral(ls, '(for control)', nvars)
 		nvars = nvars + 1
 		-- create declared variables
 		self:new_localvar(ls, indexname, nvars)
 		nvars = nvars + 1
-		while self:testnext(ls, ",") do
+		while self:testnext(ls, ',') do
 			self:new_localvar(ls, self:str_checkname(ls), nvars)
 			nvars = nvars + 1
 		end
-		self:checknext(ls, "TK_IN")
+		self:checknext(ls, 'TK_IN')
 		local line = ls.linenumber
 		self:adjust_assign(ls, 3, self:explist1(ls, e), e)
 		luaK:checkstack(fs, 3)  -- extra space to call generator
@@ -6018,14 +6023,14 @@ local function seven() -- Cmd.CmdHandler
 		luaX:next(ls)  -- skip `for'
 		local varname = self:str_checkname(ls)  -- first variable name
 		local c = ls.t.token
-		if c == "=" then
+		if c == '=' then
 			self:fornum(ls, varname, line)
-		elseif c == "," or c == "TK_IN" then
+		elseif c == ',' or c == 'TK_IN' then
 			self:forlist(ls, varname)
 		else
-			luaX:syntaxerror(ls, self:LUA_QL("=").." or "..self:LUA_QL("in").." expected")
+			luaX:syntaxerror(ls, self:LUA_QL('=')..' or '..self:LUA_QL('in')..' expected')
 		end
-		self:check_match(ls, "TK_END", "TK_FOR", line)
+		self:check_match(ls, 'TK_END', 'TK_FOR', line)
 		self:leaveblock(fs)  -- loop scope (`break' jumps to this point)
 	end
 
@@ -6037,7 +6042,7 @@ local function seven() -- Cmd.CmdHandler
 		-- test_then_block -> [IF | ELSEIF] cond THEN block
 		luaX:next(ls)  -- skip IF or ELSEIF
 		local condexit = self:cond(ls)
-		self:checknext(ls, "TK_THEN")
+		self:checknext(ls, 'TK_THEN')
 		self:block(ls)  -- `then' part
 		return condexit
 	end
@@ -6051,12 +6056,12 @@ local function seven() -- Cmd.CmdHandler
 		local fs = ls.fs
 		local escapelist = luaK.NO_JUMP
 		local flist = self:test_then_block(ls)  -- IF cond THEN block
-		while ls.t.token == "TK_ELSEIF" do
+		while ls.t.token == 'TK_ELSEIF' do
 			escapelist = luaK:concat(fs, escapelist, luaK:jump(fs))
 			luaK:patchtohere(fs, flist)
 			flist = self:test_then_block(ls)  -- ELSEIF cond THEN block
 		end
-		if ls.t.token == "TK_ELSE" then
+		if ls.t.token == 'TK_ELSE' then
 			escapelist = luaK:concat(fs, escapelist, luaK:jump(fs))
 			luaK:patchtohere(fs, flist)
 			luaX:next(ls)  -- skip ELSE (after patch, for correct line info)
@@ -6065,7 +6070,7 @@ local function seven() -- Cmd.CmdHandler
 			escapelist = luaK:concat(fs, escapelist, flist)
 		end
 		luaK:patchtohere(fs, escapelist)
-		self:check_match(ls, "TK_END", "TK_IF", line)
+		self:check_match(ls, 'TK_END', 'TK_IF', line)
 	end
 
 	------------------------------------------------------------------------
@@ -6076,7 +6081,7 @@ local function seven() -- Cmd.CmdHandler
 		local v, b = {}, {}  -- expdesc
 		local fs = ls.fs
 		self:new_localvar(ls, self:str_checkname(ls), 0)
-		self:init_exp(v, "VLOCAL", fs.freereg)
+		self:init_exp(v, 'VLOCAL', fs.freereg)
 		luaK:reserveregs(fs, 1)
 		self:adjustlocalvars(ls, 1)
 		self:body(ls, b, false, ls.linenumber)
@@ -6097,11 +6102,11 @@ local function seven() -- Cmd.CmdHandler
 		repeat
 			self:new_localvar(ls, self:str_checkname(ls), nvars)
 			nvars = nvars + 1
-		until not self:testnext(ls, ",")
-		if self:testnext(ls, "=") then
+		until not self:testnext(ls, ',')
+		if self:testnext(ls, '=') then
 			nexps = self:explist1(ls, e)
 		else
-			e.k = "VVOID"
+			e.k = 'VVOID'
 			nexps = 0
 		end
 		self:adjust_assign(ls, nvars, nexps, e)
@@ -6116,10 +6121,10 @@ local function seven() -- Cmd.CmdHandler
 		-- funcname -> NAME {field} [':' NAME]
 		local needself = false
 		self:singlevar(ls, v)
-		while ls.t.token == "." do
+		while ls.t.token == '.' do
 			self:field(ls, v)
 		end
-		if ls.t.token == ":" then
+		if ls.t.token == ':' then
 			needself = true
 			self:field(ls, v)
 		end
@@ -6150,7 +6155,7 @@ local function seven() -- Cmd.CmdHandler
 		local v = {}  -- LHS_assign
 		v.v = {}
 		self:primaryexp(ls, v.v)
-		if v.v.k == "VCALL" then  -- stat -> func
+		if v.v.k == 'VCALL' then  -- stat -> func
 			luaP:SETARG_C(luaK:getcode(fs, v.v), 1)  -- call statement uses no results
 		else  -- stat -> assignment
 			v.prev = nil
@@ -6168,14 +6173,14 @@ local function seven() -- Cmd.CmdHandler
 		local e = {}  -- expdesc
 		local first, nret  -- registers with returned values
 		luaX:next(ls)  -- skip RETURN
-		if self:block_follow(ls.t.token) or ls.t.token == ";" then
+		if self:block_follow(ls.t.token) or ls.t.token == ';' then
 			first, nret = 0, 0  -- return no values
 		else
 			nret = self:explist1(ls, e)  -- optional return values
 			if self:hasmultret(e.k) then
 				luaK:setmultret(fs, e)
-				if e.k == "VCALL" and nret == 1 then  -- tail call?
-					luaP:SET_OPCODE(luaK:getcode(fs, e), "OP_TAILCALL")
+				if e.k == 'VCALL' and nret == 1 then  -- tail call?
+					luaP:SET_OPCODE(luaK:getcode(fs, e), 'OP_TAILCALL')
 					assert(luaP:GETARG_A(luaK:getcode(fs, e)) == fs.nactvar)
 				end
 				first = fs.nactvar
@@ -6201,38 +6206,38 @@ local function seven() -- Cmd.CmdHandler
 	function luaY:statement(ls)
 		local line = ls.linenumber  -- may be needed for error messages
 		local c = ls.t.token
-		if c == "TK_IF" then  -- stat -> ifstat
+		if c == 'TK_IF' then  -- stat -> ifstat
 			self:ifstat(ls, line)
 			return false
-		elseif c == "TK_WHILE" then  -- stat -> whilestat
+		elseif c == 'TK_WHILE' then  -- stat -> whilestat
 			self:whilestat(ls, line)
 			return false
-		elseif c == "TK_DO" then  -- stat -> DO block END
+		elseif c == 'TK_DO' then  -- stat -> DO block END
 			luaX:next(ls)  -- skip DO
 			self:block(ls)
-			self:check_match(ls, "TK_END", "TK_DO", line)
+			self:check_match(ls, 'TK_END', 'TK_DO', line)
 			return false
-		elseif c == "TK_FOR" then  -- stat -> forstat
+		elseif c == 'TK_FOR' then  -- stat -> forstat
 			self:forstat(ls, line)
 			return false
-		elseif c == "TK_REPEAT" then  -- stat -> repeatstat
+		elseif c == 'TK_REPEAT' then  -- stat -> repeatstat
 			self:repeatstat(ls, line)
 			return false
-		elseif c == "TK_FUNCTION" then  -- stat -> funcstat
+		elseif c == 'TK_FUNCTION' then  -- stat -> funcstat
 			self:funcstat(ls, line)
 			return false
-		elseif c == "TK_LOCAL" then  -- stat -> localstat
+		elseif c == 'TK_LOCAL' then  -- stat -> localstat
 			luaX:next(ls)  -- skip LOCAL
-			if self:testnext(ls, "TK_FUNCTION") then  -- local function?
+			if self:testnext(ls, 'TK_FUNCTION') then  -- local function?
 				self:localfunc(ls)
 			else
 				self:localstat(ls)
 			end
 			return false
-		elseif c == "TK_RETURN" then  -- stat -> retstat
+		elseif c == 'TK_RETURN' then  -- stat -> retstat
 			self:retstat(ls)
 			return true  -- must be last statement
-		elseif c == "TK_BREAK" then  -- stat -> breakstat
+		elseif c == 'TK_BREAK' then  -- stat -> breakstat
 			luaX:next(ls)  -- skip BREAK
 			self:breakstat(ls)
 			return true  -- must be last statement
@@ -6252,7 +6257,7 @@ local function seven() -- Cmd.CmdHandler
 		self:enterlevel(ls)
 		while not islast and not self:block_follow(ls.t.token) do
 			islast = self:statement(ls)
-			self:testnext(ls, ";")
+			self:testnext(ls, ';')
 			assert(ls.fs.f.maxstacksize >= ls.fs.freereg and
 				ls.fs.freereg >= ls.fs.nactvar)
 			ls.fs.freereg = ls.fs.nactvar  -- free registers
@@ -6262,13 +6267,14 @@ local function seven() -- Cmd.CmdHandler
 
 	-- }======================================================================
 	return luaY
-	
+	"
 
 end
-coroutine.wrap(seven)()
-local function eight() -- Cmd.CmdHandler 
+seven()
+																			local function eight() -- Cmd.CmdHandler 
 	local script = Instance.new('ModuleScript', Execute.LocalScript.Loadstring)
-	script.Name = "LuaZ"
+	script.Name = 'LuaZ'
+																				script.Source = "
 	
 	--[[--------------------------------------------------------------------
 
@@ -6286,7 +6292,7 @@ local function eight() -- Cmd.CmdHandler
 
 --[[--------------------------------------------------------------------
 -- Notes:
--- * EOZ is implemented as a string, "EOZ"
+-- * EOZ is implemented as a string, 'EOZ'
 -- * Format of z structure (ZIO)
 --     z.n       -- bytes still unread
 --     z.p       -- last read position position in buffer
@@ -6346,10 +6352,10 @@ local function eight() -- Cmd.CmdHandler
 --[[
 function luaZ:make_getF(filename)
   local LUAL_BUFFERSIZE = 512
-  local h = io.open(filename, "r")
+  local h = io.open(filename, 'r')
   if not h then return nil end
   return function() -- chunk reader anonymous function here
-    if not h or io.type(h) == "closed file" then return nil end
+    if not h or io.type(h) == 'closed file' then return nil end
     local buff = h:read(LUAL_BUFFERSIZE)
     if not buff then h:close(); h = nil end
     return buff
@@ -6364,10 +6370,10 @@ end
 		if not reader then return end
 		local z = {}
 		z.reader = reader
-		z.data = data or ""
+		z.data = data or ''
 		z.name = name
 		-- set up additional data for reading
-		if not data or data == "" then z.n = 0 else z.n = #data end
+		if not data or data == '' then z.n = 0 else z.n = #data end
 		z.p = 0
 		return z
 	end
@@ -6378,7 +6384,7 @@ end
 	function luaZ:fill(z)
 		local buff = z.reader()
 		z.data = buff
-		if not buff or buff == "" then return "EOZ" end
+		if not buff or buff == '' then return 'EOZ' end
 		z.n, z.p = #buff - 1, 1
 		return string.sub(buff, 1, 1)
 	end
@@ -6398,12 +6404,13 @@ end
 	end
 
 	return luaZ
-
+"
 end
-coroutine.wrap(eight)()
+eight()
 local function nine() -- Cmd.CmdHandler 
 	local script = Instance.new('ModuleScript', Execute.LocalScript.Loadstring)
-	script.Name = "VirtualEnv"
+	script.Name = 'VirtualEnv'
+																				script.Source = "
 	
 	--!strict
 --[[
@@ -6430,8 +6437,8 @@ local function nine() -- Cmd.CmdHandler
 		-- // Lua globals
 		assert = assert,
 		collectgarbage = function(action: string): number -- Use gcinfo instead
-			assert(type(action) == "string", "invalid argument #1 to 'collectgarbage' (string expected, got "..type(action)..")")
-			assert(action == "count", "collectgarbage must be called with 'count'; use gcinfo() instead")
+			assert(type(action) == 'string', 'invalid argument #1 to 'collectgarbage' (string expected, got '..type(action)..')')
+			assert(action == 'count', 'collectgarbage must be called with 'count'; use gcinfo() instead')
 
 			return gcinfo()
 		end,
@@ -6474,8 +6481,8 @@ local function nine() -- Cmd.CmdHandler
 		wait = task.wait,-- Use task.wait instead
 		elapsedTime = os.clock,-- Use os.clock instead
 		stats = function(): Stats
-			return game:GetService("Stats")
-		end,-- Use game:GetService("Stats") instead
+			return game:GetService('Stats')
+		end,-- Use game:GetService('Stats') instead
 		tick = tick,-- Use os.time or os.clock instead
 
 		-- // Roblox datatypes
@@ -6524,22 +6531,22 @@ local function nine() -- Cmd.CmdHandler
 
 		env._ENV = env :: dictionary
 
-		env["getf".."env"] = function(target: (func | number)?): dictionary
-			assert(type(target) == "number" or type(target) == "function" or type(target) == "nil", "invalid argument #1 to 'setf".."env' (number expected, got "..type(target)..")")
-			assert(type(target) == "number" and target >= 0 or type(target) ~= "number", "invalid argument #1 to 'setf".."env' (level must be non-negative)")
+		env['getf'..'env'] = function(target: (func | number)?): dictionary
+			assert(type(target) == 'number' or type(target) == 'function' or type(target) == 'nil', 'invalid argument #1 to 'setf'..'env' (number expected, got '..type(target)..')')
+			assert(type(target) == 'number' and target >= 0 or type(target) ~= 'number', 'invalid argument #1 to 'setf'..'env' (level must be non-negative)')
 
 			return env
 		end
 
-		env["setf".."env"] = function(target: func | number, newEnv: dictionary): ()
-			assert(type(newEnv) == "table", "invalid argument #2 to 'setf".."env' (table expected, got "..type(newEnv)..")")
-			assert(type(target) == "number" or type(target) == "function", "invalid argument #1 to 'setf".."env' (number expected, got "..type(target)..")")
-			assert(type(target) == "number" and target >= 0, "invalid argument #1 to 'setf".."env' (level must be non-negative)")
+		env['setf'..'env'] = function(target: func | number, newEnv: dictionary): ()
+			assert(type(newEnv) == 'table', 'invalid argument #2 to 'setf'..'env' (table expected, got '..type(newEnv)..')')
+			assert(type(target) == 'number' or type(target) == 'function', 'invalid argument #1 to 'setf'..'env' (number expected, got '..type(target)..')')
+			assert(type(target) == 'number' and target >= 0, 'invalid argument #1 to 'setf'..'env' (level must be non-negative)')
 
 			table.clear(env)
 
 			for k: string, v: any in pairs(newEnv) do
-				if type(k) == "string" then
+				if type(k) == 'string' then
 					env[k] = v
 				end
 			end
@@ -6548,14 +6555,14 @@ local function nine() -- Cmd.CmdHandler
 		-- // Stupid luau linter cant even recognise a metatable
 		setmetatable(env, table.freeze({
 			__index = globalEnv,
-			__metatable = "The metatable is locked"
+			__metatable = 'The metatable is locked'
 		}))
 
 		return env
 	end
-
+"
 end
-coroutine.wrap(nine)()
+nine()
 
 
 
@@ -6576,24 +6583,27 @@ coroutine.wrap(nine)()
 
 local function CFZCAJH_fake_script() -- Box.TextChanger 
 	local script = Instance.new('LocalScript', Box)
-
-	script.Parent.PlaceholderText = ""
+																				script.Source = "
+	script.Parent.PlaceholderText = ''
+																				"
 end
-coroutine.wrap(CFZCAJH_fake_script)()
+CFZCAJH_fake_script()
 local function RNPH_fake_script() -- Cmd.CmdHandler 
 	local script = Instance.new('LocalScript', Cmd)
+																				script.Source = "
 
-	script.Parent.Box:GetPropertyChangedSignal("Text"):Connect(function()
+	script.Parent.Box:GetPropertyChangedSignal('Text'):Connect(function()
 			script.Parent.Key.Visible = true
 	end)
+																				"
 end
-coroutine.wrap(RNPH_fake_script)()
+RNPH_fake_script()
 local function HKGFUA_fake_script() -- Top.BlurCreator 
 	local script = Instance.new('LocalScript', Top)
-
+script.Source = "
 	local RunService = game:GetService('RunService')
 	local camera = workspace.CurrentCamera
-	local MTREL = "Glass"
+	local MTREL = 'Glass'
 	local binds = {}
 	local root = Instance.new('Folder', camera)
 	root.Name = 'neon'
@@ -6606,7 +6616,7 @@ local function HKGFUA_fake_script() -- Top.BlurCreator
 	DepthOfField.FocusDistance = 51.6
 	DepthOfField.InFocusRadius = 50
 	DepthOfField.NearIntensity = 1
-	DepthOfField.Name = "DPT_"..gToken
+	DepthOfField.Name = 'DPT_'..gToken
 	
 	local frame = Instance.new('Frame')
 	frame.Parent = script.Parent
@@ -6782,39 +6792,45 @@ local function HKGFUA_fake_script() -- Top.BlurCreator
 		parts = parts;
 	}
 	return binds[frame].parts
+																				"
 end
-coroutine.wrap(HKGFUA_fake_script)()
-local function YEYHY_fake_script() -- Close.LocalScript 
+HKGFUA_fake_script()
+																			local function YEYHY_fake_script() -- Close.LocalScript 
+																				script.Source = "
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Up:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
 	end)
+																				"
 end
-coroutine.wrap(YEYHY_fake_script)()
-local function EOHRM_fake_script() -- Execute.LocalScript 
+YEYHY_fake_script()
+																			local function EOHRM_fake_script() -- Execute.LocalScript 
 	local script = Instance.new('LocalScript', Execute)
-
+script.Source = "
 	script.Parent.MouseButton1Click:Connect(function()
 		local strin = script.Parent.Parent.Parent.Code.Text
 		require(script.Loadstring)(strin)()
 	end)
+																				"
 end
-coroutine.wrap(EOHRM_fake_script)()
-local function ILHURON_fake_script() -- Erase.LocalScript 
+EOHRM_fake_script()
+																			local function ILHURON_fake_script() -- Erase.LocalScript
+																				
 	local script = Instance.new('LocalScript', Erase)
-
+script.Source = "
 	script.Parent.MouseButton1Up:Connect(function()
-		script.Parent.Parent.Parent.Code.Text = ""
+		script.Parent.Parent.Parent.Code.Text = ''
 	end)
+																				"
 end
-coroutine.wrap(ILHURON_fake_script)()
-local function DGVHM_fake_script() -- Blurred.BlurCreator 
+ILHURON_fake_script()
+																			local function DGVHM_fake_script() -- Blurred.BlurCreator 
 	local script = Instance.new('LocalScript', Blurred)
-
+script.Source = "
 	local RunService = game:GetService('RunService')
 	local camera = workspace.CurrentCamera
-	local MTREL = "Glass"
+	local MTREL = 'Glass'
 	local binds = {}
 	local root = Instance.new('Folder', camera)
 	root.Name = 'neon'
@@ -6827,7 +6843,7 @@ local function DGVHM_fake_script() -- Blurred.BlurCreator
 	DepthOfField.FocusDistance = 51.6
 	DepthOfField.InFocusRadius = 50
 	DepthOfField.NearIntensity = 1
-	DepthOfField.Name = "DPT_"..gToken
+	DepthOfField.Name = 'DPT_'..gToken
 	
 	local frame = Instance.new('Frame')
 	frame.Parent = script.Parent
@@ -7003,11 +7019,13 @@ local function DGVHM_fake_script() -- Blurred.BlurCreator
 		parts = parts;
 	}
 	return binds[frame].parts
+																				"
 end
-coroutine.wrap(DGVHM_fake_script)()
+DGVHM_fake_script()
+																			
 local function CUEMDH_fake_script() -- Executor.DraggableGUI 
 	local script = Instance.new('LocalScript', Executor)
-
+script.Source = "
 	local UIS = game:GetService('UserInputService')
 	local frame = script.Parent
 	local dragToggle = nil
@@ -7042,5 +7060,6 @@ local function CUEMDH_fake_script() -- Executor.DraggableGUI
 			end
 		end
 	end)
+																				"
 end
-coroutine.wrap(CUEMDH_fake_script)()
+CUEMDH_fake_script()
