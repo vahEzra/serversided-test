@@ -63,6 +63,8 @@ local Number_26 = Instance.new("TextLabel")
 local Number_27 = Instance.new("TextLabel")
 local Blurred = Instance.new("Frame")
 local Code = Instance.new("TextBox")
+Executor.Active = true
+Executor.Draggable = true
 
 --Properties:
 
